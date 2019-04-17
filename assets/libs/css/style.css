@@ -160,8 +160,8 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    color: #71748d;
-    background-color: #efeff6;
+    color: #141414;
+    background-color: #f9f9ff;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -171,7 +171,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #3d405c;
+    color: #141414;
     margin: 0 0 15px 0;
     font-family: 'Circular Std Medium';
 }
@@ -226,18 +226,11 @@ a:hover {
     text-decoration: none;
 }
 
-ol,
-ul {}
-
-ol li,
-ul li {}
-
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
     color: #3d3f5d;
 }
-
 
 /*--------------------
  Form
@@ -283,10 +276,6 @@ input[type=file] {
     font-size: 15px;
 }
 
-input {}
-
-button {}
-
 button:focus {
     outline: 0;
 }
@@ -330,14 +319,6 @@ textarea:focus::-webkit-input-placeholder {
     color: #5969ff !important;
 }
 
-button.btn {}
-
-button.btn-default {}
-
-button.btn-primary {}
-
-address {}
-
 .form-group {
     margin-bottom: 12px;
 }
@@ -380,8 +361,6 @@ address {}
     color: #fff;
     background-color: #5969ff;
 }
-
-.custom-checkbox .custom-control-input:checked~.custom-control-label::after {}
 
 .custom-control-label::after {
     position: absolute;
@@ -1030,16 +1009,9 @@ Borders
     border-color: #25d5f2 !important;
 }
 
-
 /*-----------------------
 Fontawesome size
 -------------------------*/
-
-.fa-xl {}
-
-.fa-lg {}
-
-.fa-md {}
 
 .fa-sm {
     font-size: 24px !important;
@@ -1048,7 +1020,6 @@ Fontawesome size
 .fa-xs {
     font-size: 11px !important;
 }
-
 
 /*-----------------------
 Social Color
@@ -1191,7 +1162,6 @@ Progress bar
     background-color: #f8f9fa;
 }
 
-
 /*-----------------------
 Legends
 -------------------------*/
@@ -1199,11 +1169,6 @@ Legends
 .legend-item {
     font-size: 14px;
 }
-
-.legend-title {}
-
-.legend-text {}
-
 
 /* ==========================================================================
    0.2. Type Elements
@@ -1219,8 +1184,6 @@ Legends
 Top Header
 -------------------------*/
 
-.dashboard-header {}
-
 .dashboard-header .navbar {
     padding: 0;
     border-bottom: 1px solid #e6e6f2;
@@ -1229,24 +1192,6 @@ Top Header
     -webkit-transition: all .3s ease;
     min-height: 60px;
 }
-
-
-
-.navbar-brand {
-    display: inline-block;
-    margin-right: 1rem;
-    line-height: inherit;
-    white-space: nowrap;
-    padding: 11px 20px;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #007bff;
-}
-.navbar-brand:hover{
-    color: #007bff;
-}
-.navbar-right-top {}
 
 .navbar-right-top .nav-item {
     border-right: 1px solid #e6e6f2;
@@ -1274,8 +1219,6 @@ Top Header
 
 /* ------  Notification Dropdown --------  */
 
-.notification {}
-
 .notification-dropdown {
     min-width: 320px;
 }
@@ -1295,8 +1238,6 @@ Top Header
     line-height: 1.5;
     background-color: #fffffe;
 }
-
-.notification-list {}
 
 .notification-list .list-group-item {
     border-radius: 0;
@@ -1319,10 +1260,6 @@ Top Header
     text-decoration: none;
     background-color: #f7f7fb;
 }
-
-.notification-list .list-group-item:last-child {}
-
-.notification-info {}
 
 .notification-info .notification-date {
     display: block;
@@ -1354,9 +1291,9 @@ Top Header
 }
 
 .notification-list-user-name {
-    color: #5969ff;
+    color: #088457;
     font-size: 14px;
-    margin-right: 8px;
+    margin-right: 5px;
 }
 
 .list-footer,
@@ -1367,7 +1304,7 @@ Top Header
     padding: 10px 0;
     line-height: 1.5;
     font-weight: 700;
-    background-color: #5969ff;
+    background-color: #088457;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
@@ -1416,15 +1353,11 @@ Top Header
 
 /* ----- User Nav Dropdown -----*/
 
-.nav-user {}
-
 .nav-user-dropdown {
     padding: 0;
     min-width: 230px;
     margin: 0;
 }
-
-.nav-user-name {}
 
 .nav-user-info {
     background-color: #ec6823;
@@ -1509,8 +1442,6 @@ Top Header
     position: relative;
     padding: 0;
 }
-
-.navigation-horizontal .navbar-nav .nav-item {}
 
 .navigation-horizontal .navbar-nav .nav-link {
    font-size: 13px;
@@ -1636,8 +1567,6 @@ Left Navigation Sidebar
     padding: 14px;
 }
 
-.nav-left-sidebar .navbar-nav .nav-item {}
-
 .nav-left-sidebar .navbar-nav .nav-link {
     font-size: 14px;
     padding: 12px;
@@ -1722,8 +1651,6 @@ Leftsidebar - Primary
     color: #8991d4;
 }
 
-.sidebar-primary.nav-left-sidebar .navbar-nav .nav-item {}
-
 .sidebar-primary.nav-left-sidebar .navbar-nav .nav-link {
     color: #8991d4;
 }
@@ -1807,10 +1734,6 @@ Sidebar Page Navigations
     position: sticky;
     top: 5rem;
 }
-
-.sidebar-nav-fixed ul {}
-
-.sidebar-nav-fixed ul li {}
 
 .sidebar-nav-fixed ul li a {
     font-size: 14px;
@@ -1940,12 +1863,6 @@ Pageheader
     margin-bottom: 30px;
 }
 
-.page-breadcrumb {}
-
-.page-breadcrumb .breadcrumb {}
-
-.page-breadcrumb .breadcrumb-item {}
-
 .page-breadcrumb .breadcrumb-link {
     color: #a6a6b7;
 }
@@ -2009,8 +1926,6 @@ Pageheader
     bottom: 0;
 }
 
-.footer-links {}
-
 .footer .footer-links a {
     color: #575756;
     margin-left: 1.5rem;
@@ -2041,25 +1956,17 @@ Pageheader
     background-color: #25d5f2;
 }
 
-
 /* ==========================================================================
   2. Dashboard Index-Finance
    ========================================================================== */
-
-.dashboard-finance {}
 
 .dashboard-finance .ct-label {
     display: none;
 }
 
-
 /* ==========================================================================
   3. Dashboard Influencer
    ========================================================================== */
-
-.dashboard-influence {}
-
-.influencer-profile-data {}
 
 .influencer-profile-data .user-avatar {
     margin-right: 40px;
@@ -2074,10 +1981,6 @@ Pageheader
     float: left;
     padding-right: 20px;
 }
-
-.user-avatar-address {}
-
-.influencer-profile-data .user-avatar-address {}
 
 .influencer-profile-data .user-avatar-email {
     text-decoration: underline;
@@ -2104,8 +2007,6 @@ Pageheader
     background-color: #ededfa;
 }
 
-.campaign-table {}
-
 .campaign-table .dropdown-toggle::after {
     display: none;
 }
@@ -2119,14 +2020,9 @@ Pageheader
     margin-bottom: 25px;
 }
 
-.campaign-info {}
-
-
 /* ==========================================================================
   3. Influencer Finder
    ========================================================================== */
-
-.influence-finder {}
 
 .influence-finder .user-social-media {
     padding: 16px 68px;
@@ -2164,8 +2060,6 @@ Pageheader
  4. Influencer Profile
 ========================================================================== */
 
-.influence-profile {}
-
 .rating-star {
     font-size: 12px;
     padding-top: 8px;
@@ -2196,21 +2090,7 @@ Pageheader
     border-top-left-radius: 0;
 }
 
-.review-block {}
-
-.review-text {}
-
-
-/* ==========================================================================
-  5. Dashboard Ecommerce
-   ========================================================================== */
-
-.dashboard-ecommerce {}
-
-
 /* -------------- social sales -------------------*/
-
-.social-sales {}
 
 .social-sales-icon-circle {
     height: 40px;
@@ -2222,42 +2102,27 @@ Pageheader
     display: inline-block;
 }
 
-.social-sales-content {}
-
-.social-sales-name {}
-
 .social-sales-count {
     float: right;
     line-height: 2.9;
 }
 
-
 /* -------------- traffic sales -------------------*/
-
-.traffic-sales {}
 
 .traffic-sales-content {
     padding: 20px !important;
 }
-
-.traffic-sales-name {}
 
 .traffic-sales-amount {
     float: right;
     color: #3d405c;
 }
 
-
 /* -------------- country sales -------------------*/
-
-.country-sales {}
 
 .country-sales-content {
     padding: 20px !important;
 }
-
-
-
 
 /* ==========================================================================
    Ecommerce Products
@@ -2303,11 +2168,10 @@ clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 
 
     color: #ffa811;}
 .product-price{ position: absolute; top: 0; right: 0; font-size: 16px; color: #3d405c;font-family: 'Circular Std Medium'; line-height: 1;}
-.product-btn{}
 .product-del{font-size: 14px; color: #71748d;}
 .product-sidebar{ background-color: #fff; border:1px solid #e6e6f2;  }
 .product-sidebar-widget{border-bottom: 1px solid #e6e6f2; padding: 10px 20px; margin-bottom: 10px;}
-.product-sidebar-widget:last-child{border:0px;}
+.product-sidebar-widget:last-child{border:0;}
 .product-sidebar-widget-title{font-size: 16px; margin-bottom: 10px;}
 
 .custom-color-red.custom-radio .custom-control-input:checked~.custom-control-label::before {
@@ -2319,12 +2183,7 @@ clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 
 .custom-color-yellow.custom-radio .custom-control-input:checked~.custom-control-label::before{background-color: #ffdc40; border-color: #ffdc40;}
 .custom-color-black.custom-radio .custom-control-input:checked~.custom-control-label::before{background-color: #111111; border-color: #111111;}
 
-
-
-
-
 .product-slider{background-color: #fff;  border-top-left-radius: 4px; border-bottom-left-radius: 4px; padding: 110px;}
-.product-carousel{}
 .product-carousel .carousel-indicators {
     position: absolute;
     right: 0;
@@ -2365,8 +2224,6 @@ clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 
     padding: 0;
     display: none;
 }
-.product-description{}
-
 
 .product-colors label {
     display: inline-block;
@@ -2635,14 +2492,15 @@ clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 
 
 .btn-secondary {
     color: #fff;
-    background-color: #ff407b;
-    border-color: #ff407b;
+    background-color: #ec6823;
+    border-color: #ec6823;
+    border-radius: 4px;
 }
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: #f0346e;
-    border-color: #f0346e;
+    background-color: #c46324;
+    border-color: #c46324;
 }
 
 .btn-secondary.focus,
@@ -3157,22 +3015,14 @@ btn-link
     border-bottom: 1px solid #e6e6f2;
 }
 
-.card-title {}
-
 .card-subtitle {
     font-size: 14px;
 }
-
-.card-body {}
-
-.card-text {}
 
 .card-footer {
     border-top: 1px solid #e6e6f2;
     background: #f6f6ff;
 }
-
-.card-link {}
 
 .toolbar {
     font-size: 18px;
@@ -3182,12 +3032,6 @@ btn-link
     margin: 0;
     line-height: 2;
 }
-
-.card-toolbar-tabs {}
-
-.card-toolbar-tabs .nav.nav-pills {}
-
-.card-toolbar-tabs .nav.nav-pills .nav-item {}
 
 .card-toolbar-tabs .nav.nav-pills .nav-item .nav-link {
     font-size: 14px;
@@ -3199,7 +3043,6 @@ btn-link
     color: #5969ff;
     background-color: transparent;
 }
-
 
 /*------------------------- Card Varience --------------------------*/
 
@@ -3375,26 +3218,18 @@ btn-link
     cursor: pointer;
 }
 
-
 /*------------------------- Card Navigation --------------------------*/
-
-.card-header-tabs {}
-
-.card-header-pills {}
 
 .pills-regular .card-header-pills.nav.nav-pills .nav-item .nav-link.active {
     background-color: #5969ff;
     color: #fff;
 }
 
-
 /* -----------------------
 2.4  General
 -------------------------*/
 
-
 /*---------Tooltips----------*/
-
 
 /*--------- Popovers ----------------*/
 
@@ -3464,12 +3299,6 @@ btn-link
     border-radius: 100%;
 }
 
-.icon-box {}
-
-.icon-box-xxl {}
-
-.icon-box-xl {}
-
 .icon-box-lg {
     height: 68px;
     width: 68px;
@@ -3480,25 +3309,18 @@ btn-link
     width: 32px;
 }
 
-.icon-box-sm {}
-
 .icon-box-xs {
     height: 20px;
     width: 20px;
 }
 
-
 /* -----------------------
 2.8  Tabs
 -------------------------*/
 
-.tab-regular {}
-
 .tab-regular .nav.nav-tabs {
     border-bottom: transparent;
 }
-
-.tab-regular .nav.nav-tabs .nav-item {}
 
 .tab-regular .nav.nav-tabs .nav-link {
     display: block;
@@ -3508,9 +3330,6 @@ btn-link
     margin-right: 5px;
     border-color: #dddde8;
 }
-
-.tab-regular .nav-tabs .nav-link:focus,
-.nav-tabs .nav-link:hover {}
 
 .tab-regular .nav-tabs .nav-link.active {
     background-color: #fff;
@@ -3526,10 +3345,7 @@ btn-link
     border-top-left-radius: 0
 }
 
-
 /*----- Tabs Vertical CSS ----*/
-
-.tab-vertical {}
 
 .tab-vertical .nav.nav-tabs {
     float: left;
@@ -3576,10 +3392,7 @@ btn-link
     padding: 30px;
 }
 
-
 /*----- Tabs Outline CSS ----*/
-
-.tab-outline {}
 
 .tab-outline .nav.nav-tabs {
     border-bottom: transparent;
@@ -3593,8 +3406,6 @@ btn-link
     border-color: #c4c4cf #c4c4cf #c4c4cf;
     margin-right: 3px;
 }
-
-.tab-outline .nav.nav-tabs .nav-item {}
 
 .tab-outline .nav-tabs .nav-link.active {
     color: #5969ff !important;
@@ -3615,10 +3426,7 @@ btn-link
     border-top-left-radius: 0;
 }
 
-
 /*----- Tabs Vertical Outline CSS ----*/
-
-.tab-vertical-outline {}
 
 .tab-vertical-outline .nav.nav-tabs {
     float: left;
@@ -3684,8 +3492,6 @@ btn-link
     border-bottom: 1px solid #e6e6f2;
 }
 
-.simple-card .nav.nav-tabs .nav-item {}
-
 .simple-card .nav.nav-tabs .nav-item .nav-link {
     padding: 17px 49px;
     color: #71748d;
@@ -3706,7 +3512,6 @@ btn-link
     padding: 30px;
 }
 
-
 /*--- Simple Card Outline Tabs ----*/
 
 .simple-outline-card {
@@ -3717,8 +3522,6 @@ btn-link
 .simple-outline-card .nav.nav-tabs {
     border-bottom: 1px solid #c4c4cf;
 }
-
-.simple-outline-card .nav.nav-tabs .nav-item {}
 
 .simple-outline-card .nav.nav-tabs .nav-item .nav-link {
     padding: 17px 49px;
@@ -3740,16 +3543,9 @@ btn-link
     padding: 30px;
 }
 
-
 /* -----------------------
 Pills Regular
 -------------------------*/
-
-.pills-regular {}
-
-.pills-regular .nav.nav-pills {}
-
-.pills-regular .nav.nav-pills .nav-item {}
 
 .pills-regular .nav.nav-pills .nav-item .nav-link {
     background-color: #dddde8;
@@ -3771,16 +3567,9 @@ Pills Regular
     border-radius: 4px;
 }
 
-
 /* -----------------------
 Pills Outline
 -------------------------*/
-
-.pills-outline {}
-
-.pills-outline .nav.nav-pills {}
-
-.pills-outline .nav.nav-pills .nav-item {}
 
 .pills-outline .nav.nav-pills .nav-item .nav-link {
     background-color: transparent;
@@ -3802,14 +3591,9 @@ Pills Outline
     border: 1px solid #c4c4cf;
 }
 
-
 /* -----------------------
 Pills vertical
 -------------------------*/
-
-.pills-vertical {}
-
-.pills-vertical .nav.nav-pills {}
 
 .pills-vertical .nav.nav-pills .nav-link {
     background-color: #dddde8;
@@ -3829,12 +3613,9 @@ Pills vertical
     border-radius: 4px;
 }
 
-
 /* -----------------------
 2.9  Accordions
 -------------------------*/
-
-.accrodion-regular {}
 
 .accrodion-regular .card {
     margin-bottom: 5px;
@@ -3863,8 +3644,6 @@ Pills vertical
     color: #f12357;
     text-decoration: none;
 }
-
-.accrodion-outline {}
 
 .accrodion-outline .card {
     margin-bottom: 5px;
@@ -4040,8 +3819,6 @@ Pills vertical
     background-color: #d7d7df;
     text-decoration: none;
 }
-
-.dashboard-badges {}
 
 .badge-dot {
     border-radius: 100%;
@@ -4738,14 +4515,6 @@ Vertical Timeline - by CodyHouse.co
     border-right: 7px solid white;
 }
 
-.cd-timeline__content h2 {}
-
-.cd-timeline__content p,
-.cd-timeline__read-more,
-.cd-timeline__date {}
-
-.cd-timeline__content p {}
-
 .cd-timeline__read-more,
 .cd-timeline__date {
     display: inline-block;
@@ -4767,13 +4536,6 @@ Vertical Timeline - by CodyHouse.co
     float: left;
     padding: .8em 0;
     opacity: .7;
-}
-
-@media only screen and (min-width:768px) {
-    .cd-timeline__content h2 {}
-    .cd-timeline__content p {}
-    .cd-timeline__read-more,
-    .cd-timeline__date {}
 }
 
 @media only screen and (min-width:1170px) {
@@ -4909,13 +4671,11 @@ Vertical Timeline - by CodyHouse.co
 -------------------------*/
 
 .error-section {
-    padding: 74px 0;
+    padding: 30px 0;
 }
 
 .error-section-content {
-    padding-top: 30px;
-    color: #3d405c;
-    padding-bottom: 30px;
+    color: #141414;
 }
 
 
@@ -5240,12 +5000,9 @@ Vertical Timeline - by CodyHouse.co
     width: 18px;
 }
 
-
 /*-----------------------
 6.12 Shortable / Nesetable
 -------------------------*/
-
-.dashboard-short-list {}
 
 .drag-handle,
 .drag-indicator {
@@ -5261,10 +5018,6 @@ Vertical Timeline - by CodyHouse.co
 .list-group-bordered .list-group-item {
     border-color: rgba(19, 29, 40, .125);
 }
-
-/*.list-group-item:first-child {
-    border-width: 0 0 1px;
-}*/
 
 .drag-indicator {
     display: inline-block;
@@ -5446,16 +5199,9 @@ Vertical Timeline - by CodyHouse.co
     -moz-box-sizing: border-box;
 }
 
-#nestable2 .dd-handle {}
-
-#nestable2 .dd-handle:hover {}
-
-#nestable2 .dd-item>button:before {}
-
 .dd-hover>.dd-handle {
     background: #5969ff !important;
 }
-
 
 /**
 * Nestable Draggable Handles
@@ -5738,8 +5484,6 @@ Vertical Timeline - by CodyHouse.co
     padding: 20px 22px;
     position: relative;
 }
-
-.aside-header {}
 
 .aside-header .navbar-toggle {
     background: 0 0;
@@ -6912,9 +6656,3 @@ Media Query
 .simple-card .nav.nav-tabs .nav-item .nav-link {
     padding: 17px 29px;}
 }
-
-
-
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width:320px) {}
