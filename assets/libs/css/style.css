@@ -93,11 +93,6 @@
     - 6.12.  Shortable / Nestable
     - 6.13.  404 Error
 
-
-
-
-
-
          ----------------------------
 
 7. Email
@@ -126,8 +121,6 @@
     - 8.12. Page Aside
     - 8.13. Collapsible Sidebar
     - 8.14. Sub Navigation
-
-
 
        ----------------------------
 
@@ -1519,7 +1512,7 @@ Left Navigation Sidebar
 
 .nav-left-sidebar {
     position: fixed;
-    width: 264px;
+    width: 220px;
     height: 100%;
     top: 60px;
     overflow: auto;
@@ -1809,7 +1802,7 @@ Container / Wrapper
 .dashboard-wrapper {
     position: relative;
     left: 0;
-    margin-left: 264px;
+    margin-left: 220px;
     min-height: 470px !important;
 }
 
