@@ -155,6 +155,17 @@
 /* 0.1. Body / Typography
    ========================================================================== */
 
+/*
+
+cor laranja: #ec6823
+    hover: #f08852
+    active: #cb5111
+
+cor verde: #088457
+    hover: #0bb477
+    active: #055437
+
+ */
 body {
     font-family: 'Circular Std Book';
     font-style: normal;
@@ -1100,7 +1111,6 @@ Social bg Color
     background-color: #d34836;
     color: #fff;
 }
-
 
 /*-----------------------
 Progress bar
