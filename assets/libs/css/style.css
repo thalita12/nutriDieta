@@ -160,7 +160,7 @@ cor verde: #088457
 
  */
 body {
-    font-family: 'Circular Std Book';
+    font-family: 'Gotham Pro Light';
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -177,7 +177,7 @@ h5,
 h6 {
     color: #141414;
     margin: 0 0 15px 0;
-    font-family: 'Circular Std Medium';
+    font-family: 'Gotham Pro Medium';
 }
 
 h1 {
@@ -2157,7 +2157,7 @@ Pageheader
     padding: 31px 15px;
     text-align: center;
     left: 10px;
-    font-family: 'Circular Std Medium';
+    font-family: 'Gotham Pro Medium';
     color: #fff;
 }
 
@@ -2223,7 +2223,7 @@ Pageheader
     right: 0;
     font-size: 16px;
     color: #3d405c;
-    font-family: 'Circular Std Medium';
+    font-family: 'Gotham Pro Medium';
     line-height: 1;
 }
 
@@ -2476,7 +2476,7 @@ Pageheader
     text-align: center;
     color: #333;
     font-size: 13px;
-    font-family: 'Circular Std Medium';
+    font-family: 'Gotham Pro Medium';
 
     line-height: 1.6;
     -webkit-transform: translateX(-100%);
@@ -4345,7 +4345,7 @@ Pills vertical
 .table thead th,
 .table th {
     color: #3d405c;
-    font-family: 'Circular Std Medium';
+    font-family: 'Gotham Pro Medium';
 }
 
 .table-bordered {
@@ -4377,7 +4377,7 @@ tr.group,
 tr.group:hover {
     background-color: #5969ff !important;
     color: #fff;
-    font-family: 'Circular Std Medium';
+    font-family: 'Gotham Pro Medium';
     font-size: 18px;
 }
 
