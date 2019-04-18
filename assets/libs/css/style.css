@@ -160,7 +160,7 @@ cor verde: #088457
 
  */
 body {
-    font-family: 'Gotham Pro Light';
+    font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -256,22 +256,22 @@ label {
     color: #575756;
     background-color: #fff;
     background-image: none;
-    border: 1px solid #d2d2e4;
+    border: 1px solid #999;
     border-radius: 2px;
 }
 
 .form-control:focus {
-    color: #71748d;
+    color: #575756;
     background-color: #fff;
-    border-color: #a7a7f0;
+    border-color: #0bb477;
     outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(214, 214, 255, .75);
+    box-shadow: 0 0 0 .2rem rgba(208, 249, 219, .75);
 }
 
 input[type=file] {
     color: #575756;
     background-color: #fff;
-    border-color: #a7a7f0;
+    border-color: #0bb477;
     outline: 0;
     box-shadow: 0 0 0 .2rem rgba(214, 214, 255, .75);
 }
@@ -1819,7 +1819,7 @@ Splash Container / Wrapper
     width: 100%;
     max-width: 375px;
     padding: 15px;
-    margin: auto;
+    margin: 60px auto 0;
 }
 
 .splash-container .card {
