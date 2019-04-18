@@ -139,11 +139,9 @@
     - 10.2.  Level 2
    */
 
-
 /* ==========================================================================
    0. ELEMENT
    ========================================================================== */
-
 
 /* 0.1. Body / Typography
    ========================================================================== */
@@ -159,6 +157,12 @@ cor verde: #088457
     active: #055437
 
  */
+
+html,
+body {
+    height: 100%;
+}
+
 body {
     font-family: 'Gotham Pro';
     font-style: normal;
@@ -331,7 +335,6 @@ textarea:focus::-webkit-input-placeholder {
     padding: 12px;
 }
 
-
 /* Custom-Chekbox
 -------------------------------------------------------------- */
 
@@ -462,7 +465,6 @@ textarea:focus::-webkit-input-placeholder {
     margin-bottom: 5px;
 }
 
-
 /*-----------------------
 Parsley Varifation
 -------------------------*/
@@ -475,7 +477,6 @@ Parsley Varifation
     background-color: #f96a6a;
     color: #FFF;
 }
-
 
 /*--------------------
  Padding / Margin
@@ -721,7 +722,6 @@ Parsley Varifation
     margin-bottom: 120px;
 }
 
-
 /*--------------------
  Font Weight
 ---------------------*/
@@ -786,7 +786,6 @@ html body .display-7 {
     font-size: 2rem;
 }
 
-
 /*--------------------
  Arrow  List
 ---------------------*/
@@ -832,7 +831,6 @@ html body .display-7 {
     content: '\f00c';
     font-style: initial;
 }
-
 
 /*-----------------------
 Background Color / Color
@@ -902,7 +900,6 @@ Background Color / Color
     background-color: #c5fad3 !important;
 }
 
-
 /*-----------------------
 Borders
 -------------------------*/
@@ -934,7 +931,6 @@ Borders
 .border-right {
     border-right: 1px solid #e6e6f2 !important
 }
-
 
 /*-----------------------
  Color
@@ -987,7 +983,6 @@ Borders
 .rating-color {
     color: #ffa811;
 }
-
 
 /*-----------------------
 Borders
@@ -1064,7 +1059,6 @@ Social Color
 .snapchat-color {
     color: #FFFB00;
 }
-
 
 /*-----------------------
 Social bg Color
@@ -1177,11 +1171,9 @@ Legends
    0.2. Type Elements
    ========================================================================== */
 
-
 /* ==========================================================================
    0.3.  Header
    ========================================================================== */
-
 
 /*-----------------------
 Top Header
@@ -1211,14 +1203,12 @@ Top Header
     color: #82849f;
 }
 
-
 /* ------  top-search-bar --------  */
 
 .top-search-bar {
     padding-top: 12px;
     padding-right: 24px;
 }
-
 
 /* ------  Notification Dropdown --------  */
 
@@ -1390,12 +1380,9 @@ Top Header
     background-color: #f7f7fb;
 }
 
-
 /* ------  Top Header User Info --------  */
 
-
 /* -------------------- 0.4. Sidebar ----------------------- */
-
 
 .navigation-horizontal {
     width: 100%;
@@ -1504,7 +1491,6 @@ Top Header
     border-radius: 2px;
     background-color: transparent;
 }
-
 
 /* -----------------------
 Left Navigation Sidebar
@@ -1670,7 +1656,6 @@ Leftsidebar - Primary
     background-color: transparent;
 }
 
-
 /* -----------------------
 Leftsidebar - dark
 ------------------------- */
@@ -1720,7 +1705,6 @@ Leftsidebar - dark
 
 /*-----navigation dark ---*/
 
-
 /*-----------------------
 Sidebar Page Navigations
 -------------------------*/
@@ -1749,7 +1733,6 @@ Sidebar Page Navigations
     color: #5969ff;
     background: #e0e0fd;
 }
-
 
 /*--- Bootstrap Dropdown ----*/
 
@@ -1785,9 +1768,7 @@ Sidebar Page Navigations
     background-color: #088457;
 }
 
-
 /* -------------------- 0.5.Container / Wrapper ----------------------- */
-
 
 /*-----------------------
 Container / Wrapper
@@ -1809,7 +1790,6 @@ Container / Wrapper
 .dashboard-content {
     padding: 30px 30px 60px 30px;
 }
-
 
 /*-----------------------
 Splash Container / Wrapper
@@ -1855,9 +1835,7 @@ Splash Container / Wrapper
     padding: 12px 28px;
 }
 
-
 /* -------------------- 0.6.Pageheader ----------------------- */
-
 
 /*-----------------------
 Pageheader
@@ -1912,9 +1890,7 @@ Pageheader
     display: none;
 }
 
-
 /* -------------------- 0.7.Footer ----------------------- */
-
 
 /*-----------------------
  Footer
@@ -1936,7 +1912,6 @@ Pageheader
     -webkit-transition: all .4s;
     transition: all .4s;
 }
-
 
 /* ==========================================================================
   1. Dashboard Index-sales
@@ -2058,7 +2033,6 @@ Pageheader
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-
 
 /* ==========================================================================
  4. Influencer Profile
@@ -2316,7 +2290,6 @@ Pageheader
     display: none;
 }
 
-
 .product-details {
     background-color: #fff;
     padding: 30px;
@@ -2369,7 +2342,6 @@ Pageheader
     font-size: 14px;
 }
 
-
 .product-colors .radio:checked + label:after {
     background: transparent;
     transition: all .5s;
@@ -2391,7 +2363,6 @@ Pageheader
     transform: scale(1);
     transition: all .4s;
 }
-
 
 /**** Yellow Radio button code ****/
 #radio-2 + label {
@@ -2424,7 +2395,6 @@ Pageheader
     transform: scale(1);
     transition: all .4s;
 }
-
 
 .product-qty {
     position: absolute;
@@ -2502,16 +2472,13 @@ Pageheader
     height: 50%;
 }
 
-
 /* ==========================================================================
   2. UI Elements
   ========================================================================== */
 
-
 /* -----------------------
 2.1  Alerts
 -------------------------*/
-
 
 /* -----------------------
 2.2  Buttons
@@ -2543,7 +2510,6 @@ Pageheader
     color: #fff;
 }
 
-
 /*--- btn default --*/
 
 .btn-brand {
@@ -2565,7 +2531,6 @@ Pageheader
     border-color: #efb63e;
     box-shadow: none;
 }
-
 
 /*--- btn primary --*/
 
@@ -2603,7 +2568,6 @@ Pageheader
     border-color: #055437;
 }
 
-
 /*--- btn secondary --*/
 
 .btn-secondary {
@@ -2633,7 +2597,6 @@ Pageheader
     background-color: #cb5111;
     border-color: #cb5111;
 }
-
 
 /*--- btn success --*/
 
@@ -2665,7 +2628,6 @@ Pageheader
     border-color: #21ae41;
 }
 
-
 /*--- btn danger --*/
 
 .btn-danger {
@@ -2695,7 +2657,6 @@ Pageheader
     background-color: #da0419;
     border-color: #da0419;
 }
-
 
 /*--- btn warning --*/
 
@@ -2727,7 +2688,6 @@ Pageheader
     border-color: #f3b600;
 }
 
-
 /*--- btn info --*/
 
 .btn-info {
@@ -2758,7 +2718,6 @@ Pageheader
     border-color: #17c0dc;
 }
 
-
 /*--- btn light --*/
 
 .btn-light {
@@ -2780,7 +2739,6 @@ Pageheader
     border-color: #d7d7df;
     box-shadow: 0 0 0 1px rgb(215, 215, 223);
 }
-
 
 /*--- btn dark --*/
 
@@ -2804,7 +2762,6 @@ Pageheader
     box-shadow: 0 0 0 1px rgb(46, 47, 57);
 }
 
-
 /*--- btn outline brand --*/
 
 .btn-outline-brand {
@@ -2827,7 +2784,6 @@ Pageheader
     box-shadow: 0 0 0 1px rgb(255, 195, 89);
 }
 
-
 /*--- btn outline primary --*/
 
 .btn-outline-primary {
@@ -2849,7 +2805,6 @@ Pageheader
     border-color: #5969ff;
     box-shadow: 0 0 0 1px rgb(65, 77, 167);
 }
-
 
 /*--- btn outline secondary --*/
 
@@ -2881,7 +2836,6 @@ Pageheader
     border-color: #ff407b;
 }
 
-
 /*--- btn outline success --*/
 
 .btn-outline-success {
@@ -2903,7 +2857,6 @@ Pageheader
     border-color: #2ec551;
     box-shadow: 0 0 0 1px rgb(40, 167, 69);
 }
-
 
 /*--- btn outline danger --*/
 
@@ -2927,7 +2880,6 @@ Pageheader
     box-shadow: 0 0 0 1px rgb(239, 23, 44);
 }
 
-
 /*--- btn outline warning --*/
 
 .btn-outline-warning {
@@ -2949,7 +2901,6 @@ Pageheader
     border-color: #ffc108;
     box-shadow: 0 0 0 1px rgb(255, 193, 8);
 }
-
 
 /*--- btn outline info --*/
 
@@ -2973,7 +2924,6 @@ Pageheader
     box-shadow: 0 0 0 1px rgb(238, 184, 22);
 }
 
-
 /*--- btn outline light --*/
 
 .btn-outline-light {
@@ -2995,7 +2945,6 @@ Pageheader
     border-color: #cacae0;
     box-shadow: 0 0 0 1px rgb(235, 235, 237);
 }
-
 
 /*--- btn outline-dark --*/
 
@@ -3019,7 +2968,6 @@ Pageheader
     box-shadow: 0 0 0 1px rgb(46, 47, 57);
 }
 
-
 /*--- btn size --*/
 
 .btn-xs {
@@ -3036,7 +2984,6 @@ Pageheader
     padding: 11px 20px;
     font-size: 15px;
 }
-
 
 /*--- btn social --*/
 
@@ -3070,13 +3017,11 @@ Pageheader
     border-color: #c8232c;
 }
 
-
 /*--- cropper document btn --*/
 
 .btn-rounded {
     border-radius: 100px;
 }
-
 
 /*--- cropper document btn --*/
 
@@ -3084,7 +3029,6 @@ Pageheader
 .docs-data .input-group {
     margin-bottom: 5px;
 }
-
 
 /*-----------------------
 btn-link
@@ -3109,7 +3053,6 @@ btn-link
 .btn-secondary-link {
     color: #ff407b !important;
 }
-
 
 /* -----------------------
 2.3  Cards
@@ -3367,7 +3310,6 @@ btn-link
     border-top-right-radius: calc(.3rem - 1px);
 }
 
-
 /* -----------------------
 2.5  Modals
 -------------------------*/
@@ -3380,11 +3322,9 @@ btn-link
     border: 1px solid rgba(86, 61, 124, .2);
 }
 
-
 /* -----------------------
 2.6  Notification
 -------------------------*/
-
 
 /* -----------------------
 2.7  Icon
@@ -3592,7 +3532,6 @@ btn-link
     z-index: -1;
 }
 
-
 /*--- Simple Card Tabs ----*/
 
 .simple-card {
@@ -3791,11 +3730,9 @@ Pills vertical
     text-decoration: none;
 }
 
-
 /* -----------------------
 2.10  Typography
 -------------------------*/
-
 
 /* -----------------------
 2.11  Listgroup
@@ -3809,11 +3746,9 @@ Pills vertical
     border: 1px solid #e6e6f2;
 }
 
-
 /* -----------------------
 2.12  Multiselect
 -------------------------*/
-
 
 /*-----------------------
 2.13 Badge
@@ -3965,7 +3900,6 @@ Pills vertical
     background-color: #ef172c;
 }
 
-
 /*-----------------------
 2.14 Pagination
 -------------------------*/
@@ -3998,7 +3932,6 @@ Pills vertical
     background-color: #5969ff;
     border-color: #5969ff;
 }
-
 
 /*-----------------------
 2.15 Spinner
@@ -4097,7 +4030,6 @@ Pills vertical
         transform: rotate(360deg);
     }
 }
-
 
 /*-----------------------
 2.16 Switch Toggle
@@ -4221,11 +4153,9 @@ Pills vertical
     background-color: #ef172c;
 }
 
-
 /* ==========================================================================
   3. Charts
   ========================================================================== */
-
 
 /*-----------------------
 3.1 Chartist.js
@@ -4251,7 +4181,6 @@ Pills vertical
     fill: #59922b;
 }
 
-
 /*-----------------------
 3.2 Sprkling.js
 -------------------------*/
@@ -4265,61 +4194,49 @@ Pills vertical
     float: right;
 }
 
-
 /*-----------------------
 3.3 Charts.js
 -------------------------*/
-
 
 /*-----------------------
 3.4 Morris.js
 -------------------------*/
 
-
 /*-----------------------
 3.5 C3 Charts.js
 -------------------------*/
-
 
 /* ==========================================================================
   4. Forms
   ========================================================================== */
 
-
 /*-----------------------
 4.1.  Form Elements
 ------------------*/
-
 
 /*-----------------------
 4.2.  Form Validations
 ------------------*/
 
-
 /*-----------------------
 4.3.  Multiseelct
 -----------------*/
-
 
 /*-----------------------
 4.4.  Wizard
 ------------------*/
 
-
 /*-----------------------
 4.5.  Summar Note / Text Editor
 ------------------*/
-
 
 /*-----------------------
 4.6.  Multiupload
 --------------------*/
 
-
 /* ==========================================================================
  5. Table
  ========================================================================== */
-
 
 /*-----------------------
 5.1.  General
@@ -4365,11 +4282,9 @@ Pills vertical
     background-color: rgba(230, 230, 242, .5);
 }
 
-
 /*-----------------------
 5.2.  Data Tables
 --------------------*/
-
 
 /*-- row group table */
 
@@ -4381,56 +4296,45 @@ tr.group:hover {
     font-size: 18px;
 }
 
-
 /*-----------------------
 5.3. Table Filters
 --------------------*/
-
 
 /* ==========================================================================
  6. Pages
  ========================================================================== */
 
-
 /*-----------------------
 6.1 Blank Page
 -------------------------*/
-
 
 /*-----------------------
 6.2 Blank Page Header
 -------------------------*/
 
-
 /*-----------------------
 6.3 Login
 -------------------------*/
-
 
 /*-----------------------
 6.4 Sign up Page
 -------------------------*/
 
-
 /*-----------------------
 6.5 Forgot Password
 -------------------------*/
-
 
 /*-----------------------
 6.6 Profile
 -------------------------*/
 
-
 /*-----------------------
 6.7 Pricing
 -------------------------*/
 
-
 /*-----------------------
 6.8 Timeline
 -------------------------*/
-
 
 /* --------------------------------
 
@@ -4443,7 +4347,6 @@ Patterns - reusable parts of our design
         visibility: hidden;
     }
 }
-
 
 /* --------------------------------
 
@@ -4788,7 +4691,6 @@ Vertical Timeline - by CodyHouse.co
     }
 }
 
-
 /*-----------------------
 6.9 404 error
 -------------------------*/
@@ -4800,7 +4702,6 @@ Vertical Timeline - by CodyHouse.co
 .error-section-content {
     color: #141414;
 }
-
 
 /*-----------------------
 6.9 Calendar
@@ -4851,7 +4752,6 @@ Vertical Timeline - by CodyHouse.co
     float: right;
     width: 1240px;
 }
-
 
 /*-----------------------
 6.10 Metrics
@@ -4917,7 +4817,6 @@ Vertical Timeline - by CodyHouse.co
 .metric-value > sub {
     bottom: 5px;
 }
-
 
 /*-----------------------
 6.11 Media Objects
@@ -5089,7 +4988,6 @@ Vertical Timeline - by CodyHouse.co
 .card-footer-item-bordered:not(:last-child) {
     border-right: 1px solid rgb(230, 230, 242);
 }
-
 
 /*-------------------- User icon sizes ---------------------*/
 
@@ -5290,7 +5188,6 @@ Vertical Timeline - by CodyHouse.co
     box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, .1);
 }
 
-
 /**
 * Nestable Extras
 */
@@ -5399,7 +5296,6 @@ Vertical Timeline - by CodyHouse.co
     background: #ddd;
 }
 
-
 /**
 * Socialite
 */
@@ -5410,11 +5306,9 @@ Vertical Timeline - by CodyHouse.co
     height: 35px;
 }
 
-
 /*-----------------------
 6.13 404 Error
 -------------------------*/
-
 
 /*-----------------------
 6.14 Comments Widget
@@ -5471,7 +5365,6 @@ Vertical Timeline - by CodyHouse.co
 .comment-footer .action-icons a.active {
     color: #5969ff;
 }
-
 
 /*-----------------------
 6.14 mail box widget
@@ -5580,11 +5473,9 @@ Vertical Timeline - by CodyHouse.co
     white-space: nowrap;
 }
 
-
 /* ==========================================================================
 7. Email Componants
 ========================================================================== */
-
 
 /*------------------------
 7.1  Inbox
@@ -5787,7 +5678,6 @@ Vertical Timeline - by CodyHouse.co
     border-top: 1px solid #e6e6f2;
 }
 
-
 .email-filters .be-select-all.custom-checkbox {
     display: inline-block;
     vertical-align: middle;
@@ -5902,7 +5792,6 @@ Vertical Timeline - by CodyHouse.co
 .email-list-actions .custom-checkbox.custom-control {
     margin-bottom: 0;
 }
-
 
 /*-------------------
 7.2  Email Details
@@ -6031,7 +5920,6 @@ Vertical Timeline - by CodyHouse.co
     font-weight: 400;
 }
 
-
 /*-------------------
 7.3 Email Compose
 ----------------------*/
@@ -6092,7 +5980,6 @@ Vertical Timeline - by CodyHouse.co
     margin: 0;
     background-color: transparent;
 }
-
 
 /*-------------------
 7.4  Message Chat Module
@@ -6530,11 +6417,9 @@ form.dropzone {
     align-items: center;
 }
 
-
 /* ==========================================================================
 9. Map
 ========================================================================== */
-
 
 /*----------------------
 9.1 Google Map
@@ -6557,19 +6442,15 @@ form.dropzone {
     height: 400px;
 }
 
-
 /*----------------------
 9.2 Vector Map
 ---------------------------*/
-
 
 /*-------------------------------------------------------------------
 Media Query
 -------------------------------------------------------------------*/
 
-
 /*==========  Non-Mobile First Method  ==========*/
-
 
 /* Large Devices, Wide Screens */
 
@@ -6609,9 +6490,7 @@ Media Query
         border-right: transparent !important;
     }
 
-
 }
-
 
 /* Medium Devices, Desktops */
 
@@ -6627,7 +6506,6 @@ Media Query
     }
 
 }
-
 
 /* Small Devices, Tablets */
 
@@ -6707,9 +6585,7 @@ Media Query
         border-right: transparent !important;
     }
 
-
 }
-
 
 /* Extra Small Devices, Phones */
 
