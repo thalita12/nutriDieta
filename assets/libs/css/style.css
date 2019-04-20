@@ -965,7 +965,7 @@ Borders
 }
 
 .text-dark {
-    color: #3d405c !important;
+    color: #141414 !important;
 }
 
 .text-gray {
@@ -1830,7 +1830,7 @@ Splash Container / Wrapper
     font-size: 1rem;
     margin-top: 5px;
     margin-bottom: 0;
-    color: #999;
+    color: #088457;
 }
 
 .splash-title {
