@@ -215,10 +215,6 @@ p {
     margin: 0 0 20px 0;
 }
 
-p:last-child {
-    margin: 0;
-}
-
 a {
     color: #007298;
 }
@@ -937,7 +933,7 @@ Borders
 -------------------------*/
 
 .text-primary {
-    color: #5969ff !important;
+    color: #088457 !important;
 }
 
 .text-brand {
@@ -945,7 +941,7 @@ Borders
 }
 
 .text-secondary {
-    color: #ff407b !important;
+    color: #ec6823 !important;
 }
 
 .text-success {
@@ -957,7 +953,7 @@ Borders
 }
 
 .text-warning {
-    bcolor: #ffc108 !important;
+    color: #ffc108 !important;
 }
 
 .text-info {
@@ -965,7 +961,7 @@ Borders
 }
 
 .text-light {
-    color: #f0f0f8 !important;
+    color: #999 !important;
 }
 
 .text-dark {
@@ -973,7 +969,7 @@ Borders
 }
 
 .text-gray {
-    color: #868aa5 !important;
+    color: #575756 !important;
 }
 
 .text-muted {
@@ -1186,6 +1182,19 @@ Top Header
     box-shadow: 0 0 28px 0 rgba(82, 63, 105, .13);
     -webkit-transition: all .3s ease;
     min-height: 60px;
+}
+
+.logo-img {
+    display: block;
+    text-indent: -9999px;
+    width: 165px;
+    height: 60px;
+    background: url(../../images/nome1.svg) no-repeat;
+    background-size: 165px 60px;
+}
+
+.dashboard-top-header {
+    padding: 0;
 }
 
 .navbar-right-top .nav-item {
@@ -1820,7 +1829,7 @@ Splash Container / Wrapper
     line-height: 20px;
     font-size: 1rem;
     margin-top: 5px;
-    padding-bottom: 10px;
+    margin-bottom: 0;
     color: #999;
 }
 
