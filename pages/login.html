@@ -1,72 +1,120 @@
 <!doctype html>
-<html lang="en">
- 
+<html lang="pt-br">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Login</title>
+    <title>nutriDieta - Monitore sua alimentação!</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
-    <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link href="../assets/vendor/fonts/gotham-pro/style.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/libs/css/style.css">
     <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
-    <style>
-    html,
-    body {
-        height: 100%;
-    }
-
-    body {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    </style>
 </head>
+<!-- ============================================================== -->
+<!-- signup form  -->
+<!-- ============================================================== -->
 
 <body>
-    <!-- ============================================================== -->
-    <!-- login page  -->
-    <!-- ============================================================== -->
-    <div class="splash-container">
-        <div class="card ">
-            <div class="card-header text-center"><a href="../index.html"><img class="logo-img" src="../assets/images/logo.png" alt="logo"></a><span class="splash-description">Please enter your user information.</span></div>
-            <div class="card-body">
-                <form>
-                    <div class="form-group">
-                        <input class="form-control form-control-lg" id="username" type="text" placeholder="Username" autocomplete="off">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control form-control-lg" id="password" type="password" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                        <label class="custom-control custom-checkbox">
-                            <input class="custom-control-input" type="checkbox"><span class="custom-control-label">Remember Me</span>
-                        </label>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
-                </form>
-            </div>
-            <div class="card-footer bg-white p-0  ">
-                <div class="card-footer-item card-footer-item-bordered">
-                    <a href="#" class="footer-link">Create An Account</a></div>
-                <div class="card-footer-item card-footer-item-bordered">
-                    <a href="#" class="footer-link">Forgot Password</a>
+<!-- ============================================================== -->
+<!-- signup form  -->
+<!-- ============================================================== -->
+<nav class="navbar navbar-expand dashboard-top-header bg-white">
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- brand logo -->
+        <!-- ============================================================== -->
+        <a class="logo-img" href="../index.html">
+            nutriDieta
+        </a>
+        <!-- ============================================================== -->
+        <!-- end brand logo -->
+        <!-- ============================================================== -->
+    </div>
+</nav>
+
+<div class="splash-container">
+    <div class="card">
+        <div class="card-body">
+            <form class="mb-4">
+                <p class="m-b-0 text-gray text-center">
+                    Login automático com:
+                </p>
+
+                <div class="text-center m-b-30 m-t-10">
+                    <button class="btn btn-outline-light">
+                        <img src="../assets/images/facebook.svg" width="25" alt="Ícone do Facebook">
+                    </button>
+
+                    <button class="btn btn-outline-light">
+                        <img src="../assets/images/search.svg" width="25" alt="Ícone do Google">
+                    </button>
                 </div>
+
+                <p class="m-b-0 text-gray text-center">
+                    Ou login com e-mail/senha.
+                </p>
+
+                <p class="m-b-1 text-center text-light">
+                    Por favor, preencha as informações.
+                </p>
+
+                <div class="form-group">
+                    <input id="email" class="form-control form-control-lg" type="email" name="E-mail" required=""
+                           placeholder="E-mail*" autofocus>
+                </div>
+
+                <div class="form-group">
+                    <div class="input-group">
+                        <input class="form-control form-control-lg" id="senha" type="password" required=""
+                               placeholder="Senha*">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-input">
+                                <i class="fas fa-fw fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group text-right">
+                    <a href="forgot-password.html">Esqueceu a senha?</a>
+                </div>
+
+                <div class="form-group pt-1">
+                    <a class="btn btn-block btn-primary btn-xl" href="../index.html">
+                        Entrar
+                    </a>
+                </div>
+            </form>
+
+            <hr>
+            <div class="text-center">
+                <span>
+                    Não tem conta? <a href="sign-up.html">Criar agora</a>
+                </span>
             </div>
         </div>
     </div>
-  
-    <!-- ============================================================== -->
-    <!-- end login page  -->
-    <!-- ============================================================== -->
-    <!-- Optional JavaScript -->
-    <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+</div>
+
+<!-- ============================================================== -->
+<!-- footer -->
+<!-- ============================================================== -->
+<div class="p-3">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-dark text-center">
+                Copyright © 2019 nutriDieta.
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- end footer -->
+<!-- ============================================================== -->
+
+<!-- Optional JavaScript -->
+<script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
- 
 </html>

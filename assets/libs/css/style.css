@@ -220,7 +220,7 @@ a {
 }
 
 a:hover {
-    color: #ff407b;
+    color: #ec6823;
     text-decoration: none;
 }
 
@@ -356,8 +356,8 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-    background-color: #5969ff;
-    border-color: #5969ff;
+    background-color: #088457;
+    border-color: #088457;
 }
 
 .custom-control-input:checked ~ .custom-control-label::before {
@@ -396,8 +396,8 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
-    background-color: #5969ff;
-    border-color: #5969ff;
+    background-color: #088457;
+    border-color: #088457;
 }
 
 .custom-control-input:disabled ~ .custom-control-label::before {
@@ -1771,7 +1771,8 @@ Sidebar Page Navigations
 }
 
 .dropdown-item.active,
-.dropdown-item:active {
+.dropdown-item:active,
+.dropdown-item.active:hover {
     color: #fff;
     text-decoration: none;
     background-color: #088457;
@@ -2769,6 +2770,17 @@ Pageheader
     background-color: #d7d7df;
     border-color: #d7d7df;
     box-shadow: 0 0 0 1px rgb(46, 47, 57);
+}
+
+/*--- btn input --*/
+
+.btn-input {
+    background-color: #fff;
+    color: #575756;
+    border-top: 1px solid #999;
+    border-left: 0;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
 }
 
 /*--- btn outline brand --*/

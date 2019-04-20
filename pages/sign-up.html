@@ -16,111 +16,157 @@
 <!-- ============================================================== -->
 
 <body>
-    <!-- ============================================================== -->
-    <!-- signup form  -->
-    <!-- ============================================================== -->
-    <nav class="navbar navbar-expand dashboard-top-header bg-white">
-        <div class="container-fluid">
-            <!-- ============================================================== -->
-            <!-- brand logo -->
-            <!-- ============================================================== -->
-            <a class="logo-img" href="../index.html">
-                nutriDieta
-            </a>
-            <!-- ============================================================== -->
-            <!-- end brand logo -->
-            <!-- ============================================================== -->
-        </div>
-    </nav>
+<!-- ============================================================== -->
+<!-- signup form  -->
+<!-- ============================================================== -->
+<nav class="navbar navbar-expand dashboard-top-header bg-white">
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- brand logo -->
+        <!-- ============================================================== -->
+        <a class="logo-img" href="../index.html">
+            nutriDieta
+        </a>
+        <!-- ============================================================== -->
+        <!-- end brand logo -->
+        <!-- ============================================================== -->
+    </div>
+</nav>
 
-    <div class="splash-container">
-        <div class="card">
-            <div class="card-header text-center">
-                <img src="../assets/images/orange-juice.svg" width="50" alt="Imagem de um copo de suco de laranja">
-                <p class="splash-description">
-                    <strong>Olá! Vamos começar?</strong>
+<div class="splash-container">
+    <div class="card">
+        <div class="card-header text-center">
+            <img src="../assets/images/orange-juice.svg" width="50" alt="Imagem de um copo de suco de laranja">
+            <p class="splash-description">
+                <strong>Olá! Vamos começar?</strong>
+            </p>
+        </div>
+        <div class="card-body">
+            <form class="mb-4">
+                <p class="m-b-0 text-gray text-center">
+                    Crie sua conta com:
                 </p>
-            </div>
-            <div class="card-body">
-                <form class="mb-4">
-                    <p class="m-b-0 text-gray text-center">
-                        Crie sua conta com:
-                    </p>
 
-                    <button>
-
+                <div class="text-center m-b-30 m-t-10">
+                    <button class="btn btn-outline-light">
+                        <img src="../assets/images/facebook.svg" width="25" alt="Ícone do Facebook">
                     </button>
 
-                    <button>
-
+                    <button class="btn btn-outline-light">
+                        <img src="../assets/images/search.svg" width="25" alt="Ícone do Google">
                     </button>
+                </div>
 
-                    <p class="m-b-0 text-gray text-center">
-                        Ou se preferir.
-                    </p>
+                <p class="m-b-0 text-gray text-center">
+                    Ou se preferir.
+                </p>
 
-                    <p class="m-b-0 text-center text-light">
-                        Por favor, preencha as informações.
-                    </p>
+                <p class="m-b-0 text-center text-light">
+                    Por favor, preencha as informações.
+                </p>
 
-                    <div class="form-group">
-                        <label for="nome" class="col-form-label">Nome*</label>
-                        <input id="nome" type="text" class="form-control" autofocus placeholder="Me diga seu nome">
+                <div class="form-group">
+                    <label for="nome" class="col-form-label">Nome*</label>
+                    <input id="nome" type="text" class="form-control" autofocus placeholder="Me diga seu nome">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="col-form-label">E-mail*</label>
+                    <input id="email" class="form-control form-control-lg" type="email" name="E-mail" required=""
+                           placeholder="Agora digite seu e-mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="senha" class="col-form-label">Senha*</label>
+                    <div class="input-group">
+                        <input class="form-control form-control-lg" id="senha" type="password" required=""
+                               placeholder="Define uma senha">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-input">
+                                <i class="fas fa-fw fa-eye"></i>
+                            </button>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="form-group">
-                        <label for="email" class="col-form-label">E-mail*</label>
-                        <input id="email" class="form-control form-control-lg" type="email" name="E-mail" required="" placeholder="Agora digite seu e-mail" autocomplete="off">
-                    </div>
+                <div class="form-group">
+                    <label class="col-form-label">Me diga se você é:</label>
 
-                    <div class="form-group">
-                        <label for="senha" class="col-form-label">Senha*</label>
-                        <input class="form-control form-control-lg" id="senha" type="password" required="" placeholder="Define uma senha">
-                    </div>
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" name="check-stacked" class="custom-control-input">
+                        <span class="custom-control-label">
+                                Vegetariano.
+                            </span>
+                    </label>
 
-                    <div class="form-group">
-                        <label class="col-form-label">Selecione um objetivo:</label>
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" name="check-stacked" class="custom-control-input">
+                        <span class="custom-control-label">
+                                Vegano.
+                            </span>
+                    </label>
+                </div>
 
-                        <label class="custom-control custom-radio">
-                            <input type="radio" name="radio-stacked" checked="" class="custom-control-input"><span class="custom-control-label">Default Radio</span>
-                        </label>
-                    </div>
+                <div class="form-group">
+                    <label class="col-form-label">Selecione um objetivo:</label>
 
-                    <div class="form-group pt-1">
-                        <a class="btn btn-block btn-primary btn-xl" href="../index.html">
-                            Criar conta
-                        </a>
-                    </div>
-                </form>
+                    <label class="custom-control custom-radio">
+                        <input type="radio" name="radio-stacked" checked="" class="custom-control-input">
+                        <span class="custom-control-label">
+                                Monitorar minha alimentação.
+                            </span>
+                    </label>
 
-                <hr>
-                <div class="text-center">
-                    <span>
-                    Já tem conta? <a href="pages-sign-up.html">Fazer login</a>
+                    <label class="custom-control custom-radio">
+                        <input type="radio" name="radio-stacked" class="custom-control-input">
+                        <span class="custom-control-label">
+                                Fazer uma dieta.
+                            </span>
+                    </label>
+
+                    <label class="custom-control custom-radio">
+                        <input type="radio" name="radio-stacked" class="custom-control-input">
+                        <span class="custom-control-label">
+                                Manter meu corpo.
+                            </span>
+                    </label>
+                </div>
+
+                <div class="form-group pt-1">
+                    <a class="btn btn-block btn-primary btn-xl" href="../index.html">
+                        Criar conta
+                    </a>
+                </div>
+            </form>
+
+            <hr>
+            <div class="text-center">
+                <span>
+                    Já tem conta? <a href="login.html">Fazer login</a>
                 </span>
-                </div>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- ============================================================== -->
-    <!-- footer -->
-    <!-- ============================================================== -->
-    <div class="p-3">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-dark text-center">
-                    Copyright © 2019 nutriDieta.
-                </div>
+<!-- ============================================================== -->
+<!-- footer -->
+<!-- ============================================================== -->
+<div class="p-3">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-dark text-center">
+                Copyright © 2019 nutriDieta.
             </div>
         </div>
     </div>
-    <!-- ============================================================== -->
-    <!-- end footer -->
-    <!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- end footer -->
+<!-- ============================================================== -->
 
-    <!-- Optional JavaScript -->
-    <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+<!-- Optional JavaScript -->
+<script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 </html>
