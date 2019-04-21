@@ -957,7 +957,7 @@ Borders
 }
 
 .text-info {
-    color: #25d5f2 !important;
+    color: #007298 !important;
 }
 
 .text-light {
@@ -1852,7 +1852,7 @@ Pageheader
 -------------------------*/
 
 .page-header {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .page-breadcrumb .breadcrumb-link {
@@ -1893,6 +1893,7 @@ Pageheader
 .pageheader-title {
     font-size: 24px;
     margin-bottom: 8px;
+    color: #088457;
 }
 
 .pageheader-text {
