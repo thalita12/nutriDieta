@@ -211,6 +211,11 @@
                         <div class="user-avatar text-center d-block">
                             <img src="../assets/images/avatar-1.jpg" alt="User Avatar"
                                  class="rounded-circle user-avatar-xxl">
+
+                            <button class="btn btn-outline-secondary btn-xs m-t-80" type="button" data-toggle="tooltip"
+                                    data-placement="left" title="Alterar foto" data-original-title="Alterar foto">
+                                <i class="fa fa-edit"></i>
+                            </button>
                         </div>
                         <div class="text-center">
                             <h2 class="font-24 mb-0 text-info">Thalita Oliveira</h2>
@@ -222,12 +227,17 @@
                         <div class="form-group row">
                             <div class="col-12 col-sm-10">
                                 <label for="nome" class="col-form-label">Nome</label>
-                                <input id="nome" type="text" class="form-control" placeholder="Me diga seu nome"
+                                <input id="nome" type="text" class="form-control form-control-lg"
+                                       placeholder="Me diga seu nome"
                                        disabled="" required="">
                             </div>
 
-                            <div class="col-12 col-sm-4">
-
+                            <div class="col-12 col-sm-2">
+                                <label for="nome" class="col-form-label d-block">Ações</label>
+                                <button class="btn btn-outline-secondary" type="button" data-toggle="tooltip"
+                                        data-placement="left" title="Editar" data-original-title="Editar">
+                                    <i class="fa fa-edit"></i>
+                                </button>
                             </div>
                         </div>
 
@@ -239,8 +249,12 @@
                                        placeholder="Agora digite seu e-mail" disabled="">
                             </div>
 
-                            <div class="col-12 col-sm-4">
-
+                            <div class="col-12 col-sm-2">
+                                <label for="nome" class="col-form-label d-block">Ações</label>
+                                <button class="btn btn-outline-secondary" type="button" data-toggle="tooltip"
+                                        data-placement="left" title="Editar" data-original-title="Editar">
+                                    <i class="fa fa-edit"></i>
+                                </button>
                             </div>
                         </div>
 
@@ -258,30 +272,50 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-sm-4">
-
+                            <div class="col-12 col-sm-2">
+                                <label for="nome" class="col-form-label d-block">Ações</label>
+                                <button class="btn btn-outline-secondary" type="button" data-toggle="tooltip"
+                                        data-placement="left" title="Editar" data-original-title="Editar">
+                                    <i class="fa fa-edit"></i>
+                                </button>
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <div class="col-12 col-sm-10">
                                 <label for="senha" class="col-form-label">Objetivo</label>
-                                <select class="form-control">
-                                    <option>Default select</option>
+                                <select class="form-control form-control-lg" disabled="">
+                                    <option>Monitorar minha alimentação.</option>
+                                    <option>Fazer uma dieta.</option>
+                                    <option>Manter meu corpo.</option>
                                 </select>
                             </div>
 
-                            <div class="col-12 col-sm-4">
-
+                            <div class="col-12 col-sm-2">
+                                <label for="nome" class="col-form-label d-block">Ações</label>
+                                <button class="btn btn-outline-secondary" type="button" data-toggle="tooltip"
+                                        data-placement="left" title="Editar" data-original-title="Editar">
+                                    <i class="fa fa-edit"></i>
+                                </button>
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label class="col-12 col-sm-3 col-form-label text-sm-right">Success</label>
-                            <div class="col-12 col-sm-8 col-lg-6 pt-1">
+                            <label class="col-12 col-sm-2 col-form-label">Vegetariano</label>
+                            <div class="col-12 col-sm-10 col-lg-6 pt-1">
                                 <div class="switch-button switch-button-success">
-                                    <input type="checkbox" checked="" name="switch16" id="switch16"><span>
-                                                    <label for="switch16"></label></span>
+                                    <input type="checkbox" checked="" name="switch16" id="vegetariano"><span>
+                                                    <label for="vegetariano"></label></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-2 col-form-label">Vegano</label>
+                            <div class="col-12 col-sm-10 col-lg-6 pt-1">
+                                <div class="switch-button switch-button-success">
+                                    <input type="checkbox" checked="" name="switch16" id="vegano"><span>
+                                                    <label for="vegano"></label></span>
                                 </div>
                             </div>
                         </div>
