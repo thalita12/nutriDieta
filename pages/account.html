@@ -109,8 +109,10 @@
                                 <h5 class="mb-0 text-white nav-user-name">Thalita Oliveira</h5>
                                 <span>Objetivo: Fazer uma dieta.</span>
                             </div>
-                            <a class="dropdown-item active" href="account.html"><i class="fas fa-user mr-2"></i>Conta</a>
-                            <a class="dropdown-item" href="settings.html"><i class="fas fa-cog mr-2"></i>Configurações</a>
+                            <a class="dropdown-item active" href="account.html"><i
+                                    class="fas fa-user mr-2"></i>Conta</a>
+                            <a class="dropdown-item" href="settings.html"><i
+                                    class="fas fa-cog mr-2"></i>Configurações</a>
                             <a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt mr-2"></i>Sair do
                                 sistema</a>
                         </div>
@@ -204,30 +206,87 @@
             </div>
 
             <div class="card">
-                <div class="card-body">
-                    <div class="user-avatar text-center d-block">
-                        <img src="../assets/images/avatar-1.jpg" alt="User Avatar" class="rounded-circle user-avatar-xxl">
+                <form>
+                    <div class="card-body">
+                        <div class="user-avatar text-center d-block">
+                            <img src="../assets/images/avatar-1.jpg" alt="User Avatar"
+                                 class="rounded-circle user-avatar-xxl">
+                        </div>
+                        <div class="text-center">
+                            <h2 class="font-24 mb-0 text-info">Thalita Oliveira</h2>
+                            <p class="text-gray">Objetivo: Fazer uma dieta.</p>
+                        </div>
                     </div>
-                    <div class="text-center">
-                        <h2 class="font-24 mb-0 text-info">Thalita Oliveira</h2>
-                        <p class="text-gray">Objetivo: Fazer uma dieta.</p>
+                    <div class="card-body border-top">
+                        <h3 class="font-16">Informações Pessoais</h3>
+                        <div class="form-group row">
+                            <div class="col-12 col-sm-10">
+                                <label for="nome" class="col-form-label">Nome</label>
+                                <input id="nome" type="text" class="form-control" placeholder="Me diga seu nome"
+                                       disabled="" required="">
+                            </div>
+
+                            <div class="col-12 col-sm-4">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-12 col-sm-10">
+                                <label for="email" class="col-form-label">E-mail</label>
+                                <input id="email" class="form-control form-control-lg" type="email" name="E-mail"
+                                       required=""
+                                       placeholder="Agora digite seu e-mail" disabled="">
+                            </div>
+
+                            <div class="col-12 col-sm-4">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-12 col-sm-10">
+                                <label for="senha" class="col-form-label">Senha</label>
+                                <div class="input-group">
+                                    <input class="form-control form-control-lg" id="senha" type="password" required=""
+                                           placeholder="Define uma senha" disabled="">
+                                    <div class="input-group-append">
+                                        <button type="button" class="btn btn-input">
+                                            <i class="fas fa-fw fa-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-4">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-12 col-sm-10">
+                                <label for="senha" class="col-form-label">Objetivo</label>
+                                <select class="form-control">
+                                    <option>Default select</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-sm-4">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-3 col-form-label text-sm-right">Success</label>
+                            <div class="col-12 col-sm-8 col-lg-6 pt-1">
+                                <div class="switch-button switch-button-success">
+                                    <input type="checkbox" checked="" name="switch16" id="switch16"><span>
+                                                    <label for="switch16"></label></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card-body border-top">
-                    <h3 class="font-16">Informações Pessoais</h3>
-                    <div class="">
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-2"><i class="fas fa-fw fa-envelope mr-2"></i>michaelchristy@gmail.com</li>
-                            <li class="mb-0"><i class="fas fa-fw fa-phone mr-2"></i>(900) 123 4567</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card-body border-top">
-                    <h3 class="font-16">Amigos</h3>
-                    <p class="mb-0 text-secondary">
-                        <strong>15</strong>
-                    </p>
-                </div>
+                </form>
             </div>
         </div>
 
