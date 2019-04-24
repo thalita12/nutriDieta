@@ -4,18 +4,18 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-    <link href="assets/vendor/fonts/gotham-pro/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/libs/css/style.css">
-    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
-    <link rel="stylesheet" href="assets/vendor/charts/chartist-bundle/chartist.css">
-    <link rel="stylesheet" href="assets/vendor/charts/morris-bundle/morris.css">
-    <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css">
     <title>nutriDieta - Monitore sua alimentação!</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="../assets/vendor/fonts/gotham-pro/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/libs/css/style.css">
+    <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
 </head>
 
 <body>
+<!-- ============================================================== -->
+<!-- account  -->
+<!-- ============================================================== -->
 <!-- ============================================================== -->
 <!-- main wrapper -->
 <!-- ============================================================== -->
@@ -25,7 +25,7 @@
     <!-- ============================================================== -->
     <div class="dashboard-header">
         <nav class="navbar navbar-expand-lg bg-white fixed-top">
-            <a class="logo-img" href="index.html">
+            <a class="logo-img" href="../index.html">
                 nutriDieta
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -46,7 +46,7 @@
                                         <a href="#" class="list-group-item list-group-item-action active">
                                             <div class="notification-info">
                                                 <div class="notification-list-user-img"><img
-                                                        src="assets/images/avatar-1.jpg" alt=""
+                                                        src="../assets/images/avatar-1.jpg" alt=""
                                                         class="user-avatar-md rounded-circle"></div>
                                                 <div class="notification-list-user-block"><span
                                                         class="notification-list-user-name">Jeremy Rakestraw</span>aceitou
@@ -58,7 +58,7 @@
                                         <a href="#" class="list-group-item list-group-item-action">
                                             <div class="notification-info">
                                                 <div class="notification-list-user-img"><img
-                                                        src="assets/images/avatar-1.jpg" alt=""
+                                                        src="../assets/images/avatar-1.jpg" alt=""
                                                         class="user-avatar-md rounded-circle"></div>
                                                 <div class="notification-list-user-block"><span
                                                         class="notification-list-user-name">John Abraham </span>está
@@ -70,7 +70,7 @@
                                         <a href="#" class="list-group-item list-group-item-action">
                                             <div class="notification-info">
                                                 <div class="notification-list-user-img"><img
-                                                        src="assets/images/avatar-1.jpg" alt=""
+                                                        src="../assets/images/avatar-1.jpg" alt=""
                                                         class="user-avatar-md rounded-circle"></div>
                                                 <div class="notification-list-user-block"><span
                                                         class="notification-list-user-name">Monaan Pechi</span> curtiu
@@ -82,7 +82,7 @@
                                         <a href="#" class="list-group-item list-group-item-action">
                                             <div class="notification-info">
                                                 <div class="notification-list-user-img"><img
-                                                        src="assets/images/avatar-1.jpg" alt=""
+                                                        src="../assets/images/avatar-1.jpg" alt=""
                                                         class="user-avatar-md rounded-circle"></div>
                                                 <div class="notification-list-user-block"><span
                                                         class="notification-list-user-name">Jessica Caruso</span>aceitou
@@ -101,7 +101,7 @@
                     </li>
                     <li class="nav-item dropdown nav-user">
                         <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"><img src="assets/images/avatar-1.jpg" alt=""
+                           aria-haspopup="true" aria-expanded="false"><img src="../assets/images/avatar-1.jpg" alt=""
                                                                            class="user-avatar-md rounded-circle"></a>
                         <div class="dropdown-menu dropdown-menu-right nav-user-dropdown"
                              aria-labelledby="navbarDropdownMenuLink2">
@@ -109,9 +109,12 @@
                                 <h5 class="mb-0 text-white nav-user-name">Thalita Oliveira</h5>
                                 <span>Objetivo: Fazer uma dieta.</span>
                             </div>
-                            <a class="dropdown-item" href="pages/account.html"><i class="fas fa-user mr-2"></i>Conta</a>
-                            <a class="dropdown-item" href="pages/settings.html"><i class="fas fa-cog mr-2"></i>Configurações</a>
-                            <a class="dropdown-item" href=pages/login.html><i class="fas fa-sign-out-alt mr-2"></i>Sair do sistema</a>
+                            <a class="dropdown-item active" href="account.html"><i
+                                    class="fas fa-user mr-2"></i>Conta</a>
+                            <a class="dropdown-item" href="settings.html"><i
+                                    class="fas fa-cog mr-2"></i>Configurações</a>
+                            <a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt mr-2"></i>Sair do
+                                sistema</a>
                         </div>
                     </li>
                 </ul>
@@ -138,7 +141,7 @@
                             Menu
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link" href="../index.html">
                                 <i class="fa fa-fw fa-tachometer-alt"></i>Dashboard
                             </a>
                         </li>
@@ -147,8 +150,8 @@
                                 <i class="fa fa-fw fa-rocket"></i>Evolução
                             </a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="pages/feed.html">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
                                 <i class="fa fa-fw fa-utensils"></i>Comunidade
                             </a>
                         </li>
@@ -193,59 +196,55 @@
     <!-- wrapper  -->
     <!-- ============================================================== -->
     <div class="dashboard-wrapper">
-        <div class="container-fluid dashboard-content ">
-            <!-- ============================================================== -->
-            <!-- pageheader  -->
-            <!-- ============================================================== -->
+        <div class="container-fluid dashboard-content">
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="page-header">
-                        <h2 class="pageheader-title">Monitore a quantidade de calorias das refeições</h2>
+                        <h2 class="pageheader-title">Comunidade</h2>
                     </div>
                 </div>
             </div>
-            <!-- ============================================================== -->
-            <!-- end pageheader  -->
-            <!-- ============================================================== -->
-            <div class="ecommerce-widget">
-                <div class="row">
+
+            <div class="row">
+                <!-- ============================================================== -->
+                <!-- search bar  -->
+                <!-- ============================================================== -->
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <input class="form-control form-control-lg" type="search" placeholder="O que você procura?"
+                                       aria-label="Search">
+                                <button class="btn btn-primary search-btn" type="submit">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- end search bar  -->
+                <!-- ============================================================== -->
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <!-- ============================================================== -->
-                    <!-- sales  -->
+                    <!-- card influencer one -->
                     <!-- ============================================================== -->
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                        <div class="card border-3 border-top border-top-primary">
-                            <div class="card-body">
-                                <h5 class="text-muted">Sales</h5>
-                                <div class="metric-value d-inline-block">
-                                    <h1 class="mb-1">$12099</h1>
-                                </div>
-                                <div class="metric-label d-inline-block float-right text-success font-weight-bold">
-                                    <span class="icon-circle-small icon-box-xs text-success bg-success-light"><i
-                                            class="fa fa-fw fa-arrow-up"></i></span><span class="ml-1">5.86%</span>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-xl-9 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="user-avatar float-xl-left pr-4 float-none">
+                                        <img src="../assets/images/avatar-1.jpg" alt="User Avatar"
+                                             class="rounded-circle user-avatar-xl">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- ============================================================== -->
-                    <!-- end sales  -->
+                    <!-- end card influencer one -->
                     <!-- ============================================================== -->
                     <!-- ============================================================== -->
-                    <!-- new customer  -->
+                    <!-- end content -->
                     <!-- ============================================================== -->
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                        <div class="card border-3 border-top border-top-primary">
-                            <div class="card-body">
-                                <h5 class="text-muted">New Customer</h5>
-                                <div class="metric-value d-inline-block">
-                                    <h1 class="mb-1">1245</h1>
-                                </div>
-                                <div class="metric-label d-inline-block float-right text-success font-weight-bold">
-                                    <span class="icon-circle-small icon-box-xs text-success bg-success-light"><i
-                                            class="fa fa-fw fa-arrow-up"></i></span><span class="ml-1">10%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -280,26 +279,11 @@
 <!-- ============================================================== -->
 <!-- end main wrapper  -->
 <!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- end account  -->
+<!-- ============================================================== -->
 <!-- Optional JavaScript -->
-<!-- jquery 3.3.1 -->
-<script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
-<!-- bootstap bundle js -->
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-<!-- slimscroll js -->
-<script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
-<!-- main js -->
-<script src="assets/libs/js/main-js.js"></script>
-<!-- chart chartist js -->
-<script src="assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
-<!-- sparkline js -->
-<script src="assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
-<!-- morris js -->
-<script src="assets/vendor/charts/morris-bundle/raphael.min.js"></script>
-<script src="assets/vendor/charts/morris-bundle/morris.js"></script>
-<!-- chart c3 js -->
-<script src="assets/vendor/charts/c3charts/c3.min.js"></script>
-<script src="assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
-<script src="assets/vendor/charts/c3charts/C3chartjs.js"></script>
-<script src="assets/libs/js/dashboard-ecommerce.js"></script>
+<script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 </html>

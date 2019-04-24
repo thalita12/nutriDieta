@@ -111,7 +111,8 @@
                             </div>
                             <a class="dropdown-item" href="account.html"><i class="fas fa-user mr-2"></i>Conta</a>
                             <a class="dropdown-item active" href="settings.html"><i class="fas fa-cog mr-2"></i>Configurações</a>
-                            <a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt mr-2"></i>Sair do sistema</a>
+                            <a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt mr-2"></i>Sair do
+                                sistema</a>
                         </div>
                     </li>
                 </ul>
@@ -138,7 +139,7 @@
                             Menu
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="../index.html">
                                 <i class="fa fa-fw fa-tachometer-alt"></i>Dashboard
                             </a>
                         </li>
@@ -148,7 +149,7 @@
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="feed.html">
                                 <i class="fa fa-fw fa-utensils"></i>Comunidade
                             </a>
                         </li>
@@ -193,8 +194,117 @@
     <!-- wrapper  -->
     <!-- ============================================================== -->
     <div class="dashboard-wrapper">
-        <div class="container-fluid dashboard-content ">
-            <h1>Oi</h1>
+        <div class="container-fluid dashboard-content">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="page-header">
+                        <h2 class="pageheader-title">Configurações</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <form>
+                    <div class="card-body border-top">
+                        <h3 class="font-16">Configurações padrões</h3>
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-2 col-form-label">Alarmes</label>
+                            <div class="col-12 col-sm-10 col-lg-4 pt-1">
+                                <select class="form-control form-control-lg">
+                                    <option>Automático</option>
+                                    <option>Personalizado</option>
+                                    <option>Nenhum</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-2 col-form-label">Notificações</label>
+                            <div class="col-12 col-sm-10 col-lg-4 pt-1">
+                                <select class="form-control form-control-lg">
+                                    <option>Automático</option>
+                                    <option>Personalizado</option>
+                                    <option>Nenhum</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-2 col-form-label">Idioma</label>
+                            <div class="col-12 col-sm-10 col-lg-4 pt-1">
+                                <select class="form-control form-control-lg">
+                                    <option>Português do Brasil</option>
+                                    <option>Inglês</option>
+                                    <option>Espanhol</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-2 col-form-label">Unidades</label>
+                            <div class="col-12 col-sm-10 col-lg-4 pt-1">
+                                <select class="form-control form-control-lg">
+                                    <option>Gramas</option>
+                                    <option>Quilograma</option>
+                                    <option>Litro</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body border-top">
+                        <h3 class="font-16">Notificações e Permissões</h3>
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-2 col-form-label">Consumo de água</label>
+                            <div class="col-12 col-sm-10 col-lg-6 pt-1">
+                                <div class="switch-button switch-button-success">
+                                    <input type="checkbox" checked="" name="switch16" id="consumoAgua">
+                                    <span><label for="consumoAgua"></label></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-2 col-form-label">Curtidas nos posts</label>
+                            <div class="col-12 col-sm-10 col-lg-6 pt-1">
+                                <div class="switch-button switch-button-success">
+                                    <input type="checkbox" checked="" name="switch16" id="curtidasPost">
+                                    <span><label for="curtidasPost"></label></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-12 col-sm-2 col-form-label">Comentários nos posts</label>
+                            <div class="col-12 col-sm-10 col-lg-6 pt-1">
+                                <div class="switch-button switch-button-success">
+                                    <input type="checkbox" checked="" name="switch16" id="comentariosPost">
+                                    <span><label for="comentariosPost"></label></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body border-top">
+                        <h3 class="font-16">Informações gerais</h3>
+                        <div class="form-group row">
+                            <div class="col-12 col-sm-12 col-lg-3">
+                            <button class="btn btn-outline-secondary btn-block">
+                                <i class="fas fa-redo"></i> Restaurar dados
+                            </button>
+                        </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-12 col-sm-12 col-lg-3">
+                            <button class="btn btn-outline-secondary btn-block">
+                                <i class="fas fa-info-circle"></i> Termos de uso
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
 
         <!-- ============================================================== -->
