@@ -239,14 +239,14 @@ label {
     color: #575756;
     background-color: #fff;
     background-image: none;
-    border: 1px solid #999;
+    border: 1px solid #efeff6;
     border-radius: 2px;
 }
 
 .form-control:focus {
     color: #575756;
     background-color: #fff;
-    border-color: #0bb477;
+    border-color: #999;
     outline: 0;
     box-shadow: 0 0 0 .2rem rgba(208, 249, 219, .75);
 }
@@ -276,7 +276,7 @@ select.form-control {
     background-repeat: no-repeat;
     background-image: url(../../images/down-arrow.png);
     padding-right: 15px;
-    border: 1px solid #999;
+    border: 1px solid #efeff6;
     border-radius: 2px;
 }
 
@@ -285,7 +285,7 @@ textarea.form-control {
     color: #575756;
     background-color: #fff;
     background-image: none;
-    border: 1px solid #999;
+    border: 1px solid #efeff6;
     border-radius: 2px;
     padding: 12px 16px;
 }
@@ -2252,18 +2252,33 @@ Pageheader
 .btn-wishlist {
     background-color: #efeff6;
     border-radius: 100px;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     padding: 5px 3px;
     display: inline-block;
     font-size: 14px;
-    color: #3d405c;
+    color: #141414;
     text-align: center;
     line-height: 1.7;
 }
 
 .btn-wishlist:hover {
-    background-color: #ff407b;
+    background-color: #ec6823;
+    color: #fff;
+}
+
+.btn-wishlist .far {
+    font-size: 1.2rem;
+    margin-top: 3px;
+}
+
+.btn-wishlist.active {
+    background-color: #088457;
+    color: #fff;
+}
+
+.btn-wishlist.active:hover {
+    background-color: #055437;
     color: #fff;
 }
 
@@ -2524,10 +2539,10 @@ Pageheader
 .btn-input {
     background-color: #fff;
     color: #575756;
-    border-top: 1px solid #999;
+    border-top: 1px solid #efeff6;
     border-left: 0;
-    border-right: 1px solid #999;
-    border-bottom: 1px solid #999;
+    border-right: 1px solid #efeff6;
+    border-bottom: 1px solid #efeff6;
 }
 
 /*--- btn search --*/
