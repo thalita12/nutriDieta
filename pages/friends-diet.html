@@ -14,7 +14,7 @@
 
 <body>
 <!-- ============================================================== -->
-<!-- settings  -->
+<!-- account  -->
 <!-- ============================================================== -->
 <!-- ============================================================== -->
 <!-- main wrapper -->
@@ -32,7 +32,7 @@
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto navbar-right-top">
                     <li class="nav-item dropdown notification">
                         <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown"
@@ -109,8 +109,10 @@
                                 <h5 class="mb-0 text-white nav-user-name">Thalita Oliveira</h5>
                                 <span>Objetivo: Fazer uma dieta.</span>
                             </div>
-                            <a class="dropdown-item" href="account.html"><i class="fas fa-user mr-2"></i>Conta</a>
-                            <a class="dropdown-item active" href="settings.html"><i class="fas fa-cog mr-2"></i>Configurações</a>
+                            <a class="dropdown-item" href="account.html"><i
+                                    class="fas fa-user mr-2"></i>Conta</a>
+                            <a class="dropdown-item" href="settings.html"><i
+                                    class="fas fa-cog mr-2"></i>Configurações</a>
                             <a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt mr-2"></i>Sair do
                                 sistema</a>
                         </div>
@@ -138,17 +140,17 @@
                         <li class="nav-divider">
                             Menu
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <a class="nav-link" href="../index.html">
                                 <i class="fa fa-fw fa-tachometer-alt"></i>Dashboard
                             </a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <i class="fa fa-fw fa-rocket"></i>Evolução
                             </a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <a class="nav-link" href="feed.html">
                                 <i class="fa fa-fw fa-utensils"></i>Comunidade
                             </a>
@@ -159,11 +161,11 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="friends-diet.html">
+                            <a class="nav-link active" href="#">
                                 <i class="fa fa-fw fa-user-friends"></i>Amigos na dieta
                             </a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
                                data-target="#submenu-4" aria-controls="submenu-4">
                                 <i class="fa fa-fw fa-sun"></i>Área nutri
@@ -198,112 +200,36 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="page-header">
-                        <h2 class="pageheader-title">Configurações</h2>
+                        <h2 class="pageheader-title">Amigos na dieta</h2>
                     </div>
                 </div>
             </div>
 
-            <div class="card">
-                <form>
-                    <div class="card-body border-top">
-                        <h3 class="font-16">Configurações padrões</h3>
-                        <div class="form-group row">
-                            <label class="col-12 col-sm-2 col-form-label">Alarmes</label>
-                            <div class="col-12 col-sm-10 col-lg-4 pt-1">
-                                <select class="form-control form-control-lg">
-                                    <option>Automático</option>
-                                    <option>Personalizado</option>
-                                    <option>Nenhum</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label class="col-12 col-sm-2 col-form-label">Notificações</label>
-                            <div class="col-12 col-sm-10 col-lg-4 pt-1">
-                                <select class="form-control form-control-lg">
-                                    <option>Automático</option>
-                                    <option>Personalizado</option>
-                                    <option>Nenhum</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label class="col-12 col-sm-2 col-form-label">Idioma</label>
-                            <div class="col-12 col-sm-10 col-lg-4 pt-1">
-                                <select class="form-control form-control-lg">
-                                    <option>Português do Brasil</option>
-                                    <option>Inglês</option>
-                                    <option>Espanhol</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label class="col-12 col-sm-2 col-form-label">Unidades</label>
-                            <div class="col-12 col-sm-10 col-lg-4 pt-1">
-                                <select class="form-control form-control-lg">
-                                    <option>Gramas</option>
-                                    <option>Quilograma</option>
-                                    <option>Litro</option>
-                                </select>
-                            </div>
+            <div class="row">
+                <div class="col-xl-8 col-lg-7 col-md-8 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <input class="form-control form-control-lg" type="search" placeholder="Nome do seu amigo" aria-label="Nome do seu amigo" autofocus>
+                                <button class="btn btn-primary search-btn-lg" type="submit">Buscar</button>
+                            </form>
                         </div>
                     </div>
+                </div>
 
-                    <div class="card-body border-top">
-                        <h3 class="font-16">Notificações e Permissões</h3>
-                        <div class="form-group row">
-                            <label class="col-12 col-sm-2 col-form-label">Consumo de água</label>
-                            <div class="col-12 col-sm-10 col-lg-6 pt-1">
-                                <div class="switch-button switch-button-success">
-                                    <input type="checkbox" checked="" name="switch16" id="consumoAgua">
-                                    <span><label for="consumoAgua"></label></span>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-xl-4 col-lg-5 col-md-4 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <p class="text-gray mb-2">
+                                Seu amigo não conhece a gente?
+                            </p>
 
-                        <div class="form-group row">
-                            <label class="col-12 col-sm-2 col-form-label">Curtidas nos posts</label>
-                            <div class="col-12 col-sm-10 col-lg-6 pt-1">
-                                <div class="switch-button switch-button-success">
-                                    <input type="checkbox" checked="" name="switch16" id="curtidasPost">
-                                    <span><label for="curtidasPost"></label></span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label class="col-12 col-sm-2 col-form-label">Comentários nos posts</label>
-                            <div class="col-12 col-sm-10 col-lg-6 pt-1">
-                                <div class="switch-button switch-button-success">
-                                    <input type="checkbox" checked="" name="switch16" id="comentariosPost">
-                                    <span><label for="comentariosPost"></label></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-body border-top">
-                        <h3 class="font-16">Informações gerais</h3>
-                        <div class="form-group row">
-                            <div class="col-12 col-sm-12 col-lg-3">
-                            <button class="btn btn-outline-secondary btn-block">
-                                <i class="fas fa-redo"></i> Restaurar dados
+                            <button class="btn btn-outline-primary btn-block">
+                                enviar convite
                             </button>
                         </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <div class="col-12 col-sm-12 col-lg-3">
-                            <button class="btn btn-outline-secondary btn-block">
-                                <i class="fas fa-info-circle"></i> Termos de uso
-                            </button>
-                        </div>
-                        </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
 
@@ -338,7 +264,7 @@
 <!-- end main wrapper  -->
 <!-- ============================================================== -->
 <!-- ============================================================== -->
-<!-- end settings  -->
+<!-- end account  -->
 <!-- ============================================================== -->
 <!-- Optional JavaScript -->
 <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>

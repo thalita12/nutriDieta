@@ -2464,8 +2464,8 @@ Pageheader
 
 .btn-info {
     color: #fff;
-    background-color: #25d5f2;
-    border-color: #25d5f2;
+    background-color: #007298;
+    border-color: #007298;
 }
 
 .btn-info:hover {
@@ -2547,11 +2547,21 @@ Pageheader
 
 /*--- btn search --*/
 
-.search-btn {
+.search-btn, .search-btn-lg {
     position: absolute;
     bottom: 20px;
     right: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.search-btn {
     height: 30px;
+    padding: 0 16px;
+}
+
+.search-btn-lg {
+    height: 46px;
 }
 
 /*--- btn outline brand --*/
@@ -2697,9 +2707,9 @@ Pageheader
 /*--- btn outline info --*/
 
 .btn-outline-info {
-    color: #25d5f2;
+    color: #007298;
     background-color: transparent;
-    border-color: #25d5f2;
+    border-color: #007298;
 }
 
 .btn-outline-info:hover {
