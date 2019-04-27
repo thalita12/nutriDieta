@@ -3542,10 +3542,10 @@ Pills vertical
 
 .list-group-item {
     position: relative;
-    display: block;
     padding: 16px 20px;
     margin-bottom: -1px;
     border: 1px solid #e6e6f2;
+    display: flex;
 }
 
 /* -----------------------
@@ -3569,7 +3569,7 @@ Pills vertical
 }
 
 .badge-primary {
-    background-color: #5969ff;
+    background-color: #088457;
 }
 
 .badge-primary[href]:focus,
@@ -3592,7 +3592,7 @@ Pills vertical
 }
 
 .badge-secondary {
-    background-color: #ff407b;
+    background-color: #ec6823;
 }
 
 .badge-secondary[href]:focus,
@@ -3614,7 +3614,7 @@ Pills vertical
 }
 
 .badge-danger {
-    background-color: #da0419;
+    background-color: #ff0000;
 }
 
 .badge-danger[href]:focus,
@@ -3637,7 +3637,7 @@ Pills vertical
 }
 
 .badge-info {
-    background-color: #0998b0;
+    background-color: #007298;
 }
 
 .badge-info[href]:focus,
@@ -4824,10 +4824,6 @@ Vertical Timeline - by CodyHouse.co
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-.dashboard-short-list .list-group-item {
-    display: flex;
 }
 
 .dd {
