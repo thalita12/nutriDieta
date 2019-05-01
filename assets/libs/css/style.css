@@ -336,6 +336,9 @@ textarea:focus::-webkit-input-placeholder {
 
 .custom-control-label {
     margin-bottom: 0;
+    position: static;
+    display: inline-block;
+    line-height: 2;
 }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
@@ -1975,6 +1978,22 @@ Pageheader
    Ecommerce Products
    ========================================================================== */
 
+.product-sidebar {
+    background-color: #fff;
+    border: 1px solid #e6e6f2;
+}
+
+.product-sidebar-widget {
+    border-bottom: 1px solid #e6e6f2;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.product-sidebar-widget-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
 .product-thumbnail {
     border: 1px solid #e6e6f2;
     background-color: #fff;
@@ -2546,14 +2565,6 @@ Pageheader
 }
 
 /*--- btn search --*/
-
-.search-btn, .search-btn-lg {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
 
 .search-btn {
     height: 30px;
@@ -3546,6 +3557,10 @@ Pills vertical
     margin-bottom: -1px;
     border: 1px solid #e6e6f2;
     display: flex;
+}
+
+.list-group-item:nth-child(even) {
+    background-color: #f9f9ff;
 }
 
 /* -----------------------

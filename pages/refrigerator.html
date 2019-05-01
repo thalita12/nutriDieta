@@ -206,12 +206,18 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-8 col-lg-7 col-md-8 col-sm-12 col-12">
+                <div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col-12">
                     <div class="card">
                         <div class="card-body">
                             <form>
-                                <input class="form-control form-control-lg" type="search" placeholder="O que você tem aí?" aria-label="Nome do seu amigo" autofocus>
-                                <button class="btn btn-primary search-btn-lg" type="submit">Buscar</button>
+                                <div class="input-group">
+                                    <input class="form-control form-control-lg" type="search" placeholder="O que você tem aí?" aria-label="O que você tem aí?" autofocus>
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-primary search-btn-lg">
+                                            Buscar
+                                        </button>
+                                    </div>
+                                </div>
                             </form>
 
                             <ul class="list-group list-group-flush list-group-bordered" id="listaPesquisa">
@@ -251,10 +257,54 @@
                                         <p class="font-12 text-gray mb-0">Rendimento: 25 porções  <span class="m-l-10">Tempo de preparo: 4,5 h</span></p>
                                     </div>
                                     <div class="ml-auto">
-                                        <span class="badge badge-danger">DÍFICIL</span>
+                                        <span class="badge badge-danger">DIFÍCIL</span>
                                     </div>
                                 </li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="product-sidebar">
+                        <div class="product-sidebar-widget">
+                            <h4 class="product-sidebar-widget-title">Nível</h4>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="nivel-1">
+                                <label class="custom-control-label" for="nivel-1">Fácil</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="nivel-2">
+                                <label class="custom-control-label" for="nivel-2">Médio</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="nivel-3">
+                                <label class="custom-control-label" for="nivel-3">Difícil</label>
+                            </div>
+                        </div>
+                        <div class="product-sidebar-widget">
+                            <h4 class="product-sidebar-widget-title">Tipos</h4>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="tipo-1">
+                                <label class="custom-control-label" for="tipo-1">Doces</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="tipo-2">
+                                <label class="custom-control-label" for="tipo-2">Salgados</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="tipo-3">
+                                <label class="custom-control-label" for="tipo-3">Carnes</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="tipo-4">
+                                <label class="custom-control-label" for="tipo-4">Peixes</label>
+                            </div>
+                        </div>
+                        <div class="product-sidebar-widget">
+                            <button class="btn btn-block btn-sm btn-outline-light" type="button">
+                                Limpar filtros
+                            </button>
                         </div>
                     </div>
                 </div>
