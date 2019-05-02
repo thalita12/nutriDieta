@@ -1842,11 +1842,11 @@ Pageheader
 }
 
 .page-breadcrumb .breadcrumb-link {
-    color: #a6a6b7;
+    color: #999999;
 }
 
 .page-breadcrumb .breadcrumb-link:hover {
-    color: #5969ff;
+    color: #088457;
 }
 
 .page-breadcrumb .breadcrumb {
@@ -1858,22 +1858,20 @@ Pageheader
     list-style: none;
     background-color: transparent;
     border-radius: 0;
-    border-top: 1px solid #e0e4ef;
-    padding-top: 10px;
     font-size: 12px;
 }
 
 .page-breadcrumb .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
     display: inline-block;
     padding-right: .5rem;
-    color: #b1b1c0;
+    color: #999999;
     content: "\f105";
     font-family: 'Font Awesome\ 5 Free';
     font-weight: 600;
 }
 
 .page-breadcrumb .breadcrumb-item.active {
-    color: #71728e;
+    color: #141414;
 }
 
 .pageheader-title {
