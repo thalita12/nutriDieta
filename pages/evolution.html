@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>nutriDieta - Monitore sua alimentação!</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="../assets/vendor/fonts/gotham-pro/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/libs/css/style.css">
+    <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+</head>
+
+<body>
+<!-- ============================================================== -->
+<!-- account  -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- main wrapper -->
+<!-- ============================================================== -->
+<div class="dashboard-main-wrapper">
+    <!-- ============================================================== -->
+    <!-- navbar -->
+    <!-- ============================================================== -->
+    <div class="dashboard-header">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <a class="logo-img" href="../index.html">
+                nutriDieta
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto navbar-right-top">
+                    <li class="nav-item dropdown notification">
+                        <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i> <span
+                                class="indicator"></span></a>
+                        <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                            <li>
+                                <div class="notification-title">Notificações</div>
+                                <div class="notification-list">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action active">
+                                            <div class="notification-info">
+                                                <div class="notification-list-user-img"><img
+                                                        src="../assets/images/avatar-1.jpg" alt=""
+                                                        class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span
+                                                        class="notification-list-user-name">Jeremy Rakestraw</span>aceitou
+                                                    seu convite de amizade.
+                                                    <div class="notification-date">2 min atrás</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action">
+                                            <div class="notification-info">
+                                                <div class="notification-list-user-img"><img
+                                                        src="../assets/images/avatar-1.jpg" alt=""
+                                                        class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span
+                                                        class="notification-list-user-name">John Abraham </span>está
+                                                    seguindo você.
+                                                    <div class="notification-date">2 dias atrás</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action">
+                                            <div class="notification-info">
+                                                <div class="notification-list-user-img"><img
+                                                        src="../assets/images/avatar-1.jpg" alt=""
+                                                        class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span
+                                                        class="notification-list-user-name">Monaan Pechi</span> curtiu
+                                                    sua foto.
+                                                    <div class="notification-date">2 min atrás</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action">
+                                            <div class="notification-info">
+                                                <div class="notification-list-user-img"><img
+                                                        src="../assets/images/avatar-1.jpg" alt=""
+                                                        class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span
+                                                        class="notification-list-user-name">Jessica Caruso</span>aceitou
+                                                    seu convite de amizade.
+                                                    <div class="notification-date">2 min atrás</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-footer"><a href="#">Todas as notificações</a></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown nav-user">
+                        <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false"><img src="../assets/images/avatar-1.jpg" alt=""
+                                                                           class="user-avatar-md rounded-circle"></a>
+                        <div class="dropdown-menu dropdown-menu-right nav-user-dropdown"
+                             aria-labelledby="navbarDropdownMenuLink2">
+                            <div class="nav-user-info">
+                                <h5 class="mb-0 text-white nav-user-name">Thalita Oliveira</h5>
+                                <span>Objetivo: Fazer uma dieta.</span>
+                            </div>
+                            <a class="dropdown-item" href="account.html"><i
+                                    class="fas fa-user mr-2"></i>Conta</a>
+                            <a class="dropdown-item" href="settings.html"><i
+                                    class="fas fa-cog mr-2"></i>Configurações</a>
+                            <a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt mr-2"></i>Sair do
+                                sistema</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end navbar -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- left sidebar -->
+    <!-- ============================================================== -->
+    <div class="nav-left-sidebar sidebar-dark">
+        <div class="menu-list">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="d-xl-none d-lg-none" href="#">Evolução</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav flex-column">
+                        <li class="nav-divider">
+                            Menu
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">
+                                <i class="fa fa-fw fa-tachometer-alt"></i>Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <i class="fa fa-fw fa-rocket"></i>Evolução
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="feed.html">
+                                <i class="fa fa-fw fa-utensils"></i>Comunidade
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="refrigerator.html">
+                                <i class="fa fa-fw fa-door-closed"></i>Geladeira
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="friends-diet.html">
+                                <i class="fa fa-fw fa-user-friends"></i>Amigos na dieta
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                               data-target="#submenu-4" aria-controls="submenu-4">
+                                <i class="fa fa-fw fa-sun"></i>Área nutri
+                            </a>
+                            <div id="submenu-4" class="collapse submenu">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Ver minha dieta</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Sugestões de cardápio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Dúvidas nutricionais</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end left sidebar -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- wrapper  -->
+    <!-- ============================================================== -->
+    <div class="dashboard-wrapper">
+        <div class="container-fluid dashboard-content">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="page-header">
+                        <h2 class="pageheader-title">Evolução</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                    <div class="form-group">
+                        <label>Dia
+                            <small class="text-muted">dd/mm/aaaa</small>
+                        </label>
+
+                        <div class="input-group">
+                            <input type="text" class="form-control date-inputmask" id="date-mask" im-insert="true">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-outline-info btn-sm">Alterar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-5 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-inline-block">
+                                <h5 class="text-primary">Calorias</h5>
+                                <div class="d-flex align-items-center">
+                                    <h2 class="mb-0 mr-2">0</h2>
+                                    <p class="mb-0">
+                                        / 12.000 kcal
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="float-right icon-circle-medium icon-box-lg bg-primary-light mt-1">
+                                <i class="fa fa-cookie-bite fa-fw fa-sm text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-7 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="mb-1">
+                                Caloria é quantidade de calor que o alimento fornece após ser digerido e metabolizado
+                                pelo nosso organismo.</p>
+
+                            <p class="mb-0">
+                                As calorias de um alimento são a quantidade de energia que este alimento é capaz de nos
+                                fornecer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-inline-block">
+                                <h5 class="text-secondary">Carboidratos</h5>
+                                <div class="d-flex align-items-center">
+                                    <h2 class="mb-0 mr-2">0</h2>
+                                    <p class="mb-0">
+                                        / 195 g
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="float-right icon-circle-medium icon-box-lg bg-secondary-light mt-1">
+                                <i class="fa fa-bread-slice fa-fw fa-sm text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-inline-block">
+                                <h5 class="text-info">Fibras</h5>
+                                <div class="d-flex align-items-center">
+                                    <h2 class="mb-0 mr-2">0</h2>
+                                    <p class="mb-0">
+                                        / 25 g
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="float-right icon-circle-medium icon-box-lg bg-info-light mt-1">
+                                <i class="fa fa-carrot fa-fw fa-sm text-info"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-inline-block">
+                                <h5 class="text-danger">Proteínas</h5>
+                                <div class="d-flex align-items-center">
+                                    <h2 class="mb-0 mr-2">0</h2>
+                                    <p class="mb-0">
+                                        / 45 g
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="float-right icon-circle-medium  icon-box-lg bg-danger-light mt-1">
+                                <i class="fa fa-egg fa-fw fa-sm text-danger"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-inline-block">
+                                <h5 class="text-warning">Gorduras</h5>
+                                <div class="d-flex align-items-center">
+                                    <h2 class="mb-0 mr-2">0</h2>
+                                    <p class="mb-0">
+                                        / 26 g
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="float-right icon-circle-medium icon-box-lg bg-brand-light mt-1">
+                                <i class="fa fa-cheese fa-fw fa-sm text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="text-secondary">Carboidratos</h5>
+                            <p class="mb-1">
+                                Na química, os carboidratos são definidos como moléculas orgânicas que apresentam uma
+                                estrutura de carbono, hidrogênio e oxigênio. Além disso, podem ser denominadas como
+                                glicídios, hidratos de carbono ou ainda açúcares.
+                            </p>
+
+                            <p class="mb-1">
+                                O nutriente é utilizado como fonte de energia pelos sistemas vivos e auxilia na formação
+                                de estruturas das células e ácidos nucleicos. Os animais ingerem os hidratos de carbono
+                                através da alimentação, sendo que ele é uma das substâncias mais presentes nos
+                                alimentos.
+                            </p>
+
+                            <p class="mb-1">
+                                As principais funções do nutriente no organismo são referentes ao armazenamento
+                                energético, à produção de energia e à estruturação celular.
+                            </p>
+
+                            <p class="mb-1">
+                                Geralmente, os alimentos que possuem níveis maiores de carboidrato simples são aqueles
+                                mais desejados e, geralmente, menos recomendados na alimentação diária, como balas,
+                                chocolates e massas brancas. Mas também participam desse grupo a frutose e a lactose,
+                                que são encontrados em frutas e derivados do leite. Esse alimentos, apesar de possuir
+                                carboidratos simples, são fontes ricas de vitaminas e nutrientes.
+                            </p>
+
+                            <p class="mb-1">
+                                Esses carboidratos são encontrados em alguns alimentos, como: arroz branco; macarrão;
+                                pão branco; refrigerante; doces; biscoitos; sorvete; bebidas isotônicas; chocolates;
+                                leites e derivados.
+                            </p>
+
+                            <p class="mb-1">
+                                Quando várias moléculas de carboidratos se unem, elas são chamadas de estruturas
+                                complexas. Nos alimentos, as estruturas geralmente estão associadas às fibras, fazendo
+                                com que a digestão e chegada da glicose no sangue seja gradual e mais lenta, evitando
+                                que o açúcar sanguíneo suba rapidamente e ocorram picos de insulina. Devido à liberação
+                                moderada do nutriente, os carboidratos complexos conferem energia ao organismo por mais
+                                tempo.
+                            </p>
+
+                            <p class="mb-0">
+                                Esse tipo de carboidrato é encontrado principalmente em: cereais integrais (arroz, pão e
+                                macarrão); mandioca; batata doce; vegetais; grão de bico; abóbora; aveia; brócolis;
+                                milho e ervilha; linhaça.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="text-info">Fibras</h5>
+                            <p class="mb-1">
+                                As fibras são elementos (carboidratos) que fazem parte dos vegetais. Elas não são
+                                absorvidas nem digeridas pelo organismo, sendo que passam intactas pelo sistema
+                                digestório. Elas também não fornecem nenhum tipo de nutriente para o organismo. São
+                                importantes, pois atuam no bom funcionamento intestinal, evitando a constipação
+                                intestinal.
+                            </p>
+
+                            <p class="mb-1">
+                                <strong>Fibras solúveis</strong> são as fibras que possuem a propriedade de serem
+                                dissolvidas em água.
+                                São importantes para a redução do colesterol e diminuição dos níveis de glicose no
+                                sangue.
+                            </p>
+
+                            <p class="mb-1">
+                                <strong>Fibras insolúveis</strong> não são dissolvidas em água. Atuam no bom
+                                funcionamento intestinal,
+                                pois colaboram para a composição do bolo fecal, dos movimentos peristálticos e
+                                evacuação.
+                            </p>
+
+                            <p class="mb-1">
+                                Exemplos de alimentos ricos em fibras são: aveia; farelo de trigo; folhas verdes em
+                                geral; goiaba com casca; milho verde; feijão branco, preto, carioca; lentilha; brócolis;
+                                linhaça; tangerina; manga; cevada; ameixa.
+                            </p>
+
+                            <p class="mb-1">
+                                Para que as fibras alimentares tenham efeito benéfico no organismo é importante que se
+                                beba uma boa quantidade de água (média de 2 a 3 litros por pessoa adulta).
+                            </p>
+
+                            <p class="mb-0">
+                                Estudos indicam que a ingestão diária e constante de alimentos ricos em fibras são
+                                importantes para se evitar o surgimento de câncer intestinal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="text-danger">Proteínas</h5>
+                            <p class="mb-1">
+                                As proteínas são substâncias formadas por um conjunto de aminoácidos ligados entre si
+                                através de ligações peptídicas. Os aminoácidos são moléculas formadas por carbono,
+                                hidrogênio, oxigênio e nitrogênio, em que são encontrados um grupo amina (-NH2) e um
+                                grupo carboxila (-COOH). Existem apenas 20 tipos de aminoácidos, que se combinam de
+                                forma variada para formar diferentes proteínas. Chamamos de polipeptídio uma cadeia
+                                longa de aminoácidos. Cada proteína é formada por uma ou mais cadeias polipeptídicas.
+                            </p>
+
+                            <p class="mb-1">
+                                As proteínas são substâncias que exercem as mais diversas funções no organismo,
+                                participando inclusive da composição das células. Não existe nenhum processo biológico
+                                em que uma proteína não esteja envolvida. Dentre as funções atribuídas às proteínas,
+                                podemos citar:
+                            </p>
+
+                            <p class="mb-1">
+                                As proteínas de origem animal são as mais completas e melhores absorvidas pelo nosso
+                                organismo. Mas isso não significa que os vegetarianos têm uma dieta pobre dessas
+                                substâncias. Nesses casos, o indicado é que se consuma uma combinação de grãos e
+                                cereais.
+                            </p>
+
+                            <p class="mb-1">
+                                Os alimentos que são encontrados as proteínas são: carnes; ovo; cogumelos; arroz e
+                                feijão; quinoa; soja; laticínios; sementes; peixes; salmão.
+                            </p>
+
+                            <p class="mb-0">
+                                As proteínas de origem vegetal são consideradas incompletas por serem pobres em
+                                aminoácidos essenciais, que são aqueles que o nosso organismo não produz. Já as
+                                proteínas de origem animal são completas, uma vez que contêm os aminoácidos essenciais.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="text-warning">Gorduras</h5>
+                            <p class="mb-1">
+                                São substâncias orgânicas de origem animal ou vegetal, formadas predominantemente de
+                                produtos de condensação entre glicerol e ácidos graxos, chamados triacilgliceróis.
+                            </p>
+
+                            <p class="mb-1">
+                                Além de fonte de energia, são veículos importantes de nutrientes, como vitaminas
+                                lipossolúveis (A, D, E, K) e ácidos graxos essenciais.
+                            </p>
+
+                            <p class="mb-1">
+                                São compostos de carbono, hidrogênio e oxigênio.
+                            </p>
+
+                            <p class="mb-1">
+                                Diferenciam-se dos carboidratos pela proporção desses nutrientes. Cada molécula de
+                                gordura possui glicerol (álcool) combinado com ácidos graxos (ácido).
+                            </p>
+
+                            <p class="mb-1">
+                                <strong>Gorduras saturadas</strong> estão presentes em carnes gordas, banha, manteiga,
+                                palma, cacau,
+                                laticínios, coco, etc. Deve ser limitada a menos de 10% do total de ingestão calórica.
+                                Aumentam o colesterol total e a LDL.
+                            </p>
+
+                            <p class="mb-1">
+                                <strong>Gorduras monoinsaturados</strong> estão presentes no azeite de oliva, canola,
+                                açaí, abacate e
+                                frutas oleaginosas (amendoim, castanhas, etc.). Diminui o LDL e o colesterol total.
+                            </p>
+
+                            <p class="mb-1">
+                                <strong>Gorduras polinsaturados</strong> estão presentes nos peixes, óleos vegetais
+                                (girassol, soja,
+                                milho, canola,
+                                açafrão, algodão, gergelim, etc.) e nas frutas oleaginosas (castanhas, nozes, avelãs,
+                                etc.). Diminuem a concentração de colesterol na LDL, possuem efeito antiinflamatório
+                                sobre as células vasculares, inibindo a expressão de proteínas endoteliais
+                                pró-inflamatórias. São os ácidos graxos essenciais, que o organismo não produz,
+                                necessitando serem incorporados na dieta. Têm papel importante no transporte de gorduras
+                                e na manutenção da integridade das membranas celulares.
+                            </p>
+
+                            <p class="mb-1">
+                                <strong>Gorduras trans</strong> são formadas a partir do processo de hidrogenação
+                                industrial ou natural
+                                (rumem dos
+                                animais) dos ácidos graxos. Encontram-se nos alimentos industrializados. Alimentos de
+                                origem animal (carnes gordas e leites integrais) apresentam pequenas
+                                quantidades dessas gorduras.
+                            </p>
+
+                            <p class="mb-0">
+                                Possuem a finalidade de melhorar a consistência, sabor dos alimentos e aumentar a vida
+                                de prateleira de alguns produtos. O consumo excessivo aumenta a concentração de LDL e
+                                diminuem a concentração de HDL plasmático.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        Copyright © 2019 nutriDieta.
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="text-md-right footer-links d-none d-sm-block">
+                            <a href="javascript: void(0);">Sobre</a>
+                            <a href="javascript: void(0);">Ajuda</a>
+                            <a href="javascript: void(0);">Contato</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end footer -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- end wrapper  -->
+    <!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- end main wrapper  -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- end account  -->
+<!-- ============================================================== -->
+<!-- Optional JavaScript -->
+<script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
