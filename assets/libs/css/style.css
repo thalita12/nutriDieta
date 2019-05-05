@@ -882,6 +882,44 @@ Background Color / Color
     background-color: #c5fad3 !important;
 }
 
+.btn-adicionar-agua {
+    text-transform: uppercase;
+    color: #007298 !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-adicionar-agua .fa {
+    display: block;
+    font-size: 24px;
+    margin: 5px auto;
+}
+
+.info-calorias {
+    display: flex;
+    justify-content: center;
+    color: #088457;
+    align-items: baseline;
+}
+
+.info-calorias p {
+    font-size: 62px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.info-calorias-nutrientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.carousel-prev-icon, .carousel-next-icon {
+    color: #088457;
+    font-size: 22px;
+}
+
 /*-----------------------
 Borders
 -------------------------*/
@@ -2723,14 +2761,14 @@ Pageheader
 
 .btn-outline-info:hover {
     color: #fff;
-    background-color: #25d5f2;
-    border-color: #25d5f2;
+    background-color: #007298;
+    border-color: #007298;
 }
 
 .btn-outline-info.focus,
 .btn-outline-info:focus {
     color: #fff;
-    background-color: #25d5f2;
+    background-color: #007298;
     border-color: #0998b0;
     box-shadow: 0 0 0 1px rgb(238, 184, 22);
 }
@@ -5283,10 +5321,6 @@ Media Query
     .tab-regular .nav.nav-tabs .nav-item,
     .tab-regular .nav.nav-pills .nav-item {
         margin-bottom: 5px;
-    }
-
-    .product-carousel .carousel-indicators {
-        bottom: -30px;
     }
 
     .simple-card .nav.nav-tabs .nav-item .nav-link {
