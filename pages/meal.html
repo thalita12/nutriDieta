@@ -221,7 +221,177 @@
                 <div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col-12">
                     <div class="card">
                         <div class="card-body">
+                            <form>
+                                <div class="row mb-3">
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <label>Dia
+                                                <small class="text-muted">dd/mm/aaaa</small>
+                                            </label>
 
+                                            <input type="text" class="form-control date-inputmask" id="date-mask"
+                                                   im-insert="true">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row text-center d-block mb-3">
+                                    <img src="../assets/images/slack.png" alt="User Avatar"
+                                         class="rounded">
+
+                                    <button class="btn btn-outline-secondary btn-xs m-t-80" type="button"
+                                            data-toggle="tooltip"
+                                            data-placement="left" title="Alterar foto"
+                                            data-original-title="Alterar foto">
+                                        <i class="fa fa-camera"></i>
+                                    </button>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <label>Refeição</label>
+                                            <select class="form-control form-control-lg">
+                                                <option>Selecione o período</option>
+                                                <option>Café da manhã</option>
+                                                <option>Almoço</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <label>Alimentos consumidos</label>
+                                            <select class="form-control form-control-lg">
+                                                <option>O que você comeu</option>
+                                                <option>Pão</option>
+                                                <option>Tangerina</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <label>Quantidade</label>
+                                            <input class="form-control form-control-lg" type="text"
+                                                   placeholder="Digite a quantidade">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <p class="text-gray mb-2">Meu prato de hoje foi:</p>
+
+                                        <ul class="list-group list-group-flush list-group-bordered" id="items">
+                                            <li class="list-group-item align-items-center">
+                                                <div>
+                                                    <p class="mb-0"><strong>Amendoim - 50g</strong></p>
+                                                </div>
+                                                <div class="btn-group ml-auto">
+                                                    <button class="btn btn-sm btn-outline-light">
+                                                        <i class="far fa-trash-alt"></i>
+                                                    </button>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item align-items-center">
+                                                <div>
+                                                    <p class="mb-0"><strong>Arroz - 2 colheres</strong></p>
+                                                </div>
+                                                <div class="btn-group ml-auto">
+                                                    <button class="btn btn-sm btn-outline-light">
+                                                        <i class="far fa-trash-alt"></i>
+                                                    </button>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item align-items-center">
+                                                <div>
+                                                    <p class="mb-0"><strong>Bife - 300g</strong></p>
+                                                </div>
+                                                <div class="btn-group ml-auto">
+                                                    <button class="btn btn-sm btn-outline-light">
+                                                        <i class="far fa-trash-alt"></i>
+                                                    </button>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="info-calorias-nutrientes">
+                                            <div class="text-primary mr-5">
+                                                <p class="mb-0">Calorias</p>
+                                                <p class="mb-0">0 kcal</p>
+                                            </div>
+                                            <div class="text-secondary mr-5">
+                                                <p class="mb-0">Carboidratos</p>
+                                                <p class="mb-0">0 g</p>
+                                            </div>
+                                            <div class="text-info mr-5">
+                                                <p class="mb-0">Fibras</p>
+                                                <p class="mb-0">0 g</p>
+                                            </div>
+                                            <div class="text-danger mr-5">
+                                                <p class="mb-0">Proteínas</p>
+                                                <p class="mb-0">0 g</p>
+                                            </div>
+                                            <div class="text-warning">
+                                                <p class="mb-0">Gorduras</p>
+                                                <p class="mb-0">0 g</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <label>Descrição</label>
+                                            <textarea class="form-control form-control-lg" type="text"
+                                                      placeholder="Digite algo sobre essa refeição"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <a class="btn btn-primary btn-xl btn-block" href="../index.html">
+                                                Salvar
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <a class="btn btn-light btn-xl" href="../index.html">
+                                                Cancelar
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <p class="text-info mb-0">
+                                Não encontrou o alimento que consumiu?
+                            </p>
+                            <p class="text-gray mb-2">
+                                Nos ajude a adicioná-lo em nossa base de dados!
+                            </p>
+
+                            <button class="btn btn-outline-info btn-block">
+                                Novo item
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -261,6 +431,38 @@
 <!-- ============================================================== -->
 <!-- end account  -->
 <!-- ============================================================== -->
+
+
+<div class="modal fade" id="adicionarAlimento" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Adicionar água</h5>
+                <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </a>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-info font-18 font-bold">
+                    Quantidade (ml)
+                </p>
+
+                <form class="">
+                    <div class="form-group">
+                        <input id="email" class="form-control form-control-lg" type="email" name="E-mail" required=""
+                               placeholder="Digite a qtde de água que você bebeu" autofocus="">
+                    </div>
+
+                    <button class="btn btn-secondary btn-block" data-dismiss="modal">
+                        ok
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Optional JavaScript -->
 <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
 <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
